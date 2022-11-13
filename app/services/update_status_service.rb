@@ -125,7 +125,9 @@ class UpdateStatusService < BaseService
 
   def broadcast_updates!
     DistributionWorker.perform_async(@status.id, { 'update' => true })
-    ActivityPub::StatusUpdateDistributionWorker.perform_async(@status.id)
+    unless @status.local_only?
+      ActivityPub::StatusUpdateDistributionWorker.perform_async(@status.id)
+    end
   end
 
   def queue_poll_notifications!

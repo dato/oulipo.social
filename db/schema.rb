@@ -893,6 +893,7 @@ ActiveRecord::Schema.define(version: 2022_04_29_101850) do
     t.bigint "in_reply_to_account_id"
     t.bigint "poll_id"
     t.datetime "deleted_at"
+    t.boolean "local_only"
     t.datetime "edited_at"
     t.boolean "trendable"
     t.bigint "ordered_media_attachment_ids", array: true
