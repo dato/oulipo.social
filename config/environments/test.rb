@@ -71,7 +71,6 @@ if ENV['PAM_ENABLED'] == 'true'
     }
 end
 
-require 'oulipo/oulipo'
 Oulipo.set_invalid_glyphs!(/.^/)
 
 # Catch serialization warnings early

@@ -1,6 +1,6 @@
 # coding: utf-8
 module Oulipo
-  
+
   FIFTH_GLYPH_REGEX = /[E€eÈÉÊËèéêëĒēĔĕĖėĘęĚěƐȄȅȆȇȨȩɛεϵЄЕеєҽԐԑعᎬᗴᘍᘓᥱᴱᵉᵋḘḙḚḛẸẹẺẻẼẽₑℇ℮ℯℰⅇ∈ⒺⓔⲈⲉⴹ㋍㋎ꗋꜪꜫﻉＥｅ𝈡𝐄𝐞𝐸𝑒𝑬𝒆𝓔𝓮𝔈𝔢𝔼𝕖𝕰𝖊𝖤𝖾𝗘𝗲𝘌𝘦𝙀𝙚𝙴𝚎🄴🇪ÆæǢǣǼǽᴁᴭɘəЭӘƎᴲ∃ⱻ⋿Œœꟹ]/i
   URL_REGEX = /http.?:\/\/[^\s\\]+/
   MENTION_REGEX = /@[^\s\\]+@[^\s\\]+\.[a-z]+/
@@ -20,5 +20,3 @@ module Oulipo
     attr_accessor :invalid_glyphs_regex
   end
 end
-
-

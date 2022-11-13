@@ -128,5 +128,4 @@ Rails.application.configure do
   config.x.otp_secret = ENV.fetch('OTP_SECRET')
 end
 
-require 'oulipo/oulipo'
 Oulipo.set_invalid_glyphs!(Oulipo::FIFTH_GLYPH_REGEX)

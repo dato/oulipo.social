@@ -670,13 +670,6 @@ export function changeComposeFederation(value) {
   };
 };
 
-export function changeComposeFederation(value) {
-  return {
-    type: COMPOSE_FEDERATION_CHANGE,
-    value,
-  };
-};
-
 export function insertEmojiCompose(position, emoji, needsSpace) {
   return {
     type: COMPOSE_EMOJI_INSERT,
