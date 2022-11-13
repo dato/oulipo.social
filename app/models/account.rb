@@ -1,3 +1,4 @@
+# coding: utf-8
 # frozen_string_literal: true
 # == Schema Information
 #
@@ -88,15 +89,16 @@ class Account < ApplicationRecord
 
   # Local user validations
   validates :username, format: { with: /\A#{USERNAME_RE}\z/i }, length: { maximum: 30 }, if: -> { local? && will_save_change_to_username? }
-  validates :username, format: { without: Oulipo.invalid_glyphs_regex, message: "not that fifth symbol" }, if: -> { local?  && will_save_change_to_username? }
+  validates :username, format: { without: Oulipo.invalid_glyphs_regex, message: "try it without that fifth symbol" }, if: -> { local?  && will_save_change_to_username? }
   validates_with UniqueUsernameValidator, if: -> { local? && will_save_change_to_username? }
   validates_with UnreservedUsernameValidator, if: -> { local? && will_save_change_to_username? }
   validates :display_name, length: { maximum: 30 }, if: -> { local? && will_save_change_to_display_name? }
-  validates :display_name, format: { without: Oulipo.invalid_glyphs_regex, message: "not that fifth symbol" }, if: -> { local? && will_save_change_to_display_name?}
+  validates :display_name, format: { without: Oulipo.invalid_glyphs_regex, message: "try it without that fifth symbol" }, if: -> { local? && will_save_change_to_display_name?}
   validates :note, note_length: { maximum: 500 }, if: -> { local? && will_save_change_to_note? }
-  validates :note, format: { without: Oulipo.invalid_glyphs_regex, message: "not that fifth symbol" }, if: -> { local? && will_save_change_to_note? }
+  validates :note, format: { without: Oulipo.invalid_glyphs_regex, message: "try it without that fifth symbol" }, if: -> { local? && will_save_change_to_note? }
   validates :fields, length: { maximum: 4 }, if: -> { local? && will_save_change_to_fields? }
-#    validates :fields, format: { without: Oulipo.invalid_glyphs_regex, message: "not that fifth symbol" }, if: -> { local? && will_save_change_to_fields? }
+  #  validates :fields_attributes, format: { without: Oulipo.invalid_glyphs_regex, message: "try it without that fifth symbol" }, if: -> { local? && will_save_change_to_fields? }
+  validates_with Oulipo::Validators::AccountFieldsValidator, if: -> { local? && will_save_change_to_fields? }
 
   scope :remote, -> { where.not(domain: nil) }
   scope :local, -> { where(domain: nil) }
