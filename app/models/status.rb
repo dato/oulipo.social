@@ -80,6 +80,7 @@ class Status < ApplicationRecord
   validates :uri, uniqueness: true, presence: true, unless: :local?
   validates :text, presence: true, unless: -> { with_media? || reblog? }
   validates_with StatusLengthValidator
+  validates_with Oulipo::Validators::StatusValidator
   validates_with DisallowedHashtagsValidator
   validates :reblog, uniqueness: { scope: :account }, if: :reblog?
   validates :visibility, exclusion: { in: %w(direct limited) }, if: :reblog?
@@ -182,6 +183,10 @@ class Status < ApplicationRecord
 
   def in_reply_to_local_account?
     reply? && thread&.account&.local?
+  end
+
+  def local_only?
+    local_only
   end
 
   def reblog?
@@ -307,6 +312,8 @@ class Status < ApplicationRecord
   after_create_commit :update_statistics, if: :local?
 
   around_create Mastodon::Snowflake::Callbacks
+
+  before_create :set_locality
 
   before_create :set_locality
 
@@ -494,6 +501,10 @@ class Status < ApplicationRecord
 
   def set_local
     self.local = account.local?
+  end
+
+  def set_locality
+    self.local_only = reblog.local_only if reblog?
   end
 
   def set_locality

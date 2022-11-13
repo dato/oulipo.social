@@ -1,0 +1,227 @@
+---
+en-OU:
+  simple_form:
+    hints:
+      account_alias:
+        acct: Specify the username@domain of the account you want to move from
+      account_migration:
+        acct: Specify the username@domain of the account you want to move to
+      account_warning_preset:
+        text: You can use toot syntax, such as URLs, hashtags and mentions
+        title: Optional. Not visible to the recipient
+      admin_account_action:
+        include_statuses: The user will see which toots have caused the moderation action or warning
+        send_email_notification: The user will receive an explanation of what happened with their account
+        text_html: Optional. You can use toot syntax. You can <a href="%{path}">add warning presets</a> to save time
+        type_html: Choose what to do with <strong>%{acct}</strong>
+        warning_preset_id: Optional. You can still add custom text to end of the preset
+      announcement:
+        all_day: When checked, only the dates of the time range will be displayed
+        ends_at: Optional. Announcement will be automatically unpublished at this time
+        scheduled_at: Leave blank to publish the announcement immediately
+        starts_at: Optional. In case your announcement is bound to a specific time range
+        text: You can use toot syntax. Please be mindful of the space the announcement will take up on the user's screen
+      defaults:
+        autofollow: People who sign up through the invite will automatically follow you
+        avatar: PNG, GIF or JPG. At most %{size}. Will crunch down to %{dimensions}px
+        bot: This account mainly acts automatically and might lack monitoring
+        context: One or multiple contexts where the filter should apply
+        current_password: For security purposes please enter the password of the current account
+        current_username: To confirm, please enter the username of the current account
+        digest: Only if you lack activity for many days and only if you got DMs or @s in such days
+        discoverable: The profile directory is another way by which your account can reach a wider audience
+        discoverable_html: The <a href="%{path}" target="_blank">directory</a> lets people find accounts based on interests and activity. Requires at least %{min_followers} followers
+        display_name:
+          one: <span class="name-counter">1</span> glyphs to go
+          other: <span class="name-counter">%{count}</span> glyphs to go
+        email: You will be sent a confirmation e-mail
+        fields: You can put up to 4 things in a box on your bio
+        header: PNG, GIF or JPG. At most %{size}. Will crunch to %{dimensions}px
+        inbox_url: Copy the URL from the frontpage of the relay you want to use
+        irreversible: Filtered toots will disappear irreversibly, even if filter is later removed
+        locale: The language of the user interface, e-mails and push notifications
+        locked: You want to manually confirm follows
+        note:
+          one: <span class="note-counter">1</span> glyph to go
+          other: <span class="note-counter">%{count}</span> glyphs to go
+        password: Password must contain a minimum of 8 symbols
+        phrase: Will be matched regardless of casing in text or content warning of a toot
+        scopes: Which APIs the application will be allowed to access. If you select a top-level scope, you don't need to select individual ones.
+        setting_aggregate_reblogs: Do not show new boosts for toots that have been recently boosted (only affects newly-received boosts)
+        setting_default_federation: With this off, your toots will not transmit off this instantiation normally, but can do so if you allow it during composition. With it on, normal action is for your toots to go out from this spot.
+        setting_default_language: The language of your toots can be detected automatically, but it's not always accurate
+        setting_default_sensitive: Sensitive media is hidden by default and can be revealed with a click
+        setting_display_media_default: Don't show pics/vids with a "tricky topic" tag
+        setting_display_media_hide_all: Don't show any pics/vids
+        setting_display_media_show_all: Always display posts with a "tricky topic" tag
+        setting_hide_network: Who you follow and who follows you will stay in hiding on your bio
+        setting_noindex: This is for your public bio and toots
+        setting_show_application: The application you use to toot will be displayed in the detailed view of your toots
+        setting_theme: This controls how Mastodon looks if you log in.
+        setting_use_blurhash: Gradients are based on the colors of the hidden visuals but obfuscate any details
+        setting_use_pending_items: Hide timeline updates behind a click instead of automatically scrolling the feed
+        username: Your username will be unique on %{domain}
+        whole_word: When the keyword or phrase is alphanumeric only, it will only be applied if it matches the whole word
+      domain_allow:
+        domain: This domain will be able to fetch data from this server and incoming data from it will be processed and stored
+      email_domain_block:
+        domain: This can be the domain name that shows up in the e-mail address, the MX record that domain resolves to, or IP of the server that MX record resolves to. Those will be checked upon user sign-up and the sign-up will be rejected.
+        with_dns_records: An attempt to resolve the given domain's DNS records will be made and the results will also be blocked
+      featured_tag:
+        name: 'You might want to use one of these:'
+      form_challenge:
+        current_password: You are entering a secure area
+      imports:
+        data: CSV doc from an alt Mastodon
+      invite_request:
+        text: This will help us review your application
+      ip_block:
+        comment: Optional. Remember why you added this rule.
+        expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
+        ip: Enter an IPv4 or IPv6 address. You can block entire ranges using the CIDR syntax. Be careful not to lock yourself out!
+        severities:
+          no_access: Block access to all resources
+          sign_up_requires_approval: New sign-ups will require your approval
+        severity: Choose what will happen with requests from this IP
+      sessions:
+        otp: 'Put in two-factor digits from an app or pick from your backup digits:'
+        webauthn: If it's an USB key be sure to insert it and, if necessary, tap it.
+      tag:
+        name: You can only change the casing of the letters, for example, to make it more readable
+      user:
+        chosen_languages: When checked, only toots in selected languages will be displayed in public timelines
+        filtered_languages: Idioms you want off of any public activity lists
+    labels:
+      account:
+        fields:
+          name: Tag
+          value: Data
+      account_alias:
+        acct: Handle of the old account
+      account_migration:
+        acct: Handle of the new account
+      account_warning_preset:
+        text: Preset text
+        title: Title
+      admin_account_action:
+        include_statuses: Include reported toots in the e-mail
+        send_email_notification: Notify the user per e-mail
+        text: Custom warning
+        type: Action
+        types:
+          disable: Disable
+          none: Do nothing
+          sensitive: Sensitive
+          silence: Silence
+          suspend: Suspend and irreversibly delete account data
+        warning_preset_id: Use a warning preset
+      announcement:
+        all_day: All-day event
+        ends_at: End of event
+        scheduled_at: Schedule publication
+        starts_at: Start of event
+        text: Announcement
+      defaults:
+        autofollow: Invite to follow your account
+        avatar: Avatar
+        bot: This is a bot account
+        chosen_languages: Filter languages
+        confirm_new_password: Confirm this password
+        confirm_password: Confirm password
+        context: Filter contexts
+        current_password: Your password now
+        data: Data
+        discoverable: List this account on the directory
+        display_name: Display Alias
+        email: Mail@Domain
+        expires_in: Expiration
+        fields: Bio tags
+        filtered_languages: Idioms not to show
+        header: Top Background
+        honeypot: "%{label} (do not fill in)"
+        inbox_url: URL of the relay inbox
+        irreversible: Drop instead of hide
+        locale: Idiom
+        locked: Lock account
+        max_uses: Max amount of using
+        new_password: Password from now on
+        note: Bio
+        otp_attempt: Two-factor digits
+        password: Password
+        phrase: Keyword or phrase
+        setting_advanced_layout: Turn on multi-column UI
+        setting_aggregate_reblogs: Group boosts in timelines
+        setting_auto_play_gif: Auto-play GIFs
+        setting_boost_modal: Show confirmation dialog prior to boosting
+        setting_crop_images: Crop images in non-expanded toots to 16x9
+        setting_default_federation: Allow my toots to go to any Mastodon spot, normally
+        setting_default_language: Posting language
+        setting_default_privacy: Post privacy
+        setting_default_sensitive: Always mark pics as tricky
+        setting_delete_modal: Show confirmation dialog prior to discarding a toot
+        setting_disable_swiping: Disable swiping motions
+        setting_display_media: Pics and Vids
+        setting_display_media_default: Default
+        setting_display_media_hide_all: Hide all
+        setting_display_media_show_all: Show all
+        setting_display_sensitive_media: Always show pics known as tricky
+        setting_expand_spoilers: Always show full toots with a "tricky topic" tag
+        setting_hide_network: Don’t show follow info
+        setting_noindex: Ask looking-for-stuff programs not to find your toots
+        setting_reduce_motion: Not so much motion in animations
+        setting_show_application: Disclose application used to send toots
+        setting_system_font_ui: Display using your PC's font
+        setting_theme: Colors
+        setting_trends: Show today's trends
+        setting_unfollow_modal: Show confirmation dialog prior to unfollowing an account
+        setting_use_blurhash: Show colorful gradients for hidden media
+        setting_use_pending_items: Slow mode
+        severity: Severity
+        sign_in_token_attempt: Security code
+        type: Import kind
+        username: Login Alias
+        username_or_email: Login Alias or Mail
+        whole_word: Full word
+      email_domain_block:
+        with_dns_records: Include MX records and IPs of the domain
+      featured_tag:
+        name: Hashtag
+      interactions:
+        must_be_follower: Block notifications from folks not following you
+        must_be_following: Block notifications from folks you don't follow
+        must_be_following_dm: Block DMs from folks you don't follow
+      invite:
+        comment: Comment
+      invite_request:
+        text: Why do you want to join?
+      ip_block:
+        comment: Comment
+        ip: IP
+        severities:
+          no_access: Block access
+          sign_up_requires_approval: Limit sign-ups
+        severity: Rule
+      notification_emails:
+        digest: Bundling of mail
+        favourite: Mail if anybody stars your status
+        follow: Mail if anybody follows you
+        follow_request: Mail if anybody asks to follow you
+        mention: Mail if anybody says your alias
+        pending_account: Send e-mail when a new account needs review
+        reblog: Mail if anybody boosts your status
+        report: Send e-mail when a new report is submitted
+        trending_tag: An unreviewed hashtag is trending
+      tag:
+        listable: Allow this hashtag to appear in searches and on the profile directory
+        name: Hashtag
+        trendable: Allow this hashtag to appear under trends
+        usable: Allow toots to use this hashtag
+    'no': 'No'
+    recommended: A good option
+    required:
+      mark: "*"
+      text: mandatory
+    title:
+      sessions:
+        webauthn: Use one of your security keys to sign in
+    'yes': Yup

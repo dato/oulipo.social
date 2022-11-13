@@ -1,0 +1,26 @@
+---
+en-OU:
+  activerecord:
+    attributes:
+      poll:
+        expires_at: Closing at
+        options: Options
+      status:
+        text: Status
+    errors:
+      messages:
+        record_invalid: 'Validation did not pass: %{errors}'
+      models:
+        account:
+          attributes:
+            username:
+              invalid: 'Valid glyphs: A-D and F-Z (plus small glyphs), 0-9, and "_"'
+              taken: That account was on our list prior to now. Sorry!
+        status:
+          attributes:
+            reblog:
+              taken: of status already exists
+        tag:
+          attributes:
+            name:
+              invalid: Hashtag contains invalid symbol

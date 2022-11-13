@@ -94,3 +94,6 @@ module PrivateAddressCheck
     false
   end
 end
+
+require 'oulipo/oulipo'
+Oulipo.set_invalid_glyphs!(Oulipo::FIFTH_GLYPH_REGEX)

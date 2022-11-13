@@ -30,6 +30,7 @@ RSpec.configure do |config|
   config.before :suite do
     Rails.application.load_seed
     Chewy.strategy(:bypass)
+    Oulipo.set_invalid_glyphs!(/.^/)
   end
 
   config.after :suite do

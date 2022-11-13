@@ -315,6 +315,10 @@ export default function compose(state = initialState, action) {
     return state
       .set('federation', action.value)
       .set('idempotencyKey', uuid());
+  case COMPOSE_FEDERATION_CHANGE:
+    return state
+      .set('federation', action.value)
+      .set('idempotencyKey', uuid());
   case COMPOSE_VISIBILITY_CHANGE:
     return state
       .set('privacy', action.value)
@@ -447,6 +451,7 @@ export default function compose(state = initialState, action) {
       map.set('text', action.raw_text || unescapeHTML(expandMentions(action.status)));
       map.set('in_reply_to', action.status.get('in_reply_to_id'));
       map.set('privacy', action.status.get('visibility'));
+      map.set('federation', !action.status.get('local_only'));
       map.set('media_attachments', action.status.get('media_attachments'));
       map.set('focusDate', new Date());
       map.set('caretPosition', null);
