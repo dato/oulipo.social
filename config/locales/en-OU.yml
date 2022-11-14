@@ -1665,6 +1665,11 @@ en-OU:
     contrast: High contrast
     default: Mastodon
     mastodon-light: Mastodon (light)
+  time:
+    formats:
+      default: "%b %d, %Y, %H:%M"
+      month: "%b %Y"
+      time: "%H:%M"
   two_factor_authentication:
     add: Add
     disable: Disallow
