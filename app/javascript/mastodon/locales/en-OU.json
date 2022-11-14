@@ -23,7 +23,7 @@
   "account.follows.empty": "This account isn't following anybody right now.",
   "account.follows_you": "Follows you",
   "account.hide_reblogs": "Don't show boosts from @{name}",
-  "account.joined": "Joined {date}",
+  "account.joined": "First login on {date}",
   "account.link_verified_on": "Last look at who controls this link was on {date}",
   "account.locked_info": "This account privacy status is non-public. This account manually confirms who can follow.",
   "account.media": "Photos",
