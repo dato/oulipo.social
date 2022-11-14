@@ -14,6 +14,12 @@ en-OU:
         send_email_notification: The user will receive an explanation of what happened with their account
         text_html: Optional. You can use toot syntax. You can <a href="%{path}">add warning presets</a> to save time
         type_html: Choose what to do with <strong>%{acct}</strong>
+        types:
+          disable: Prevent the user from using their account, but do not delete or hide their contents.
+          none: Use this to send a warning to the user, without triggering any other action.
+          sensitive: Force all this user's media attachments to be flagged as sensitive.
+          silence: Prevent the user from being able to post with public visibility, hide their posts and notifications from people not following them.
+          suspend: Prevent any interaction from or to this account and delete its contents. Revertible within 30 days.
         warning_preset_id: Optional. You can still add custom text to end of the preset
       announcement:
         all_day: When checked, only the dates of the time range will be displayed
@@ -21,6 +27,8 @@ en-OU:
         scheduled_at: Leave blank to publish the announcement immediately
         starts_at: Optional. In case your announcement is bound to a specific time range
         text: You can use toot syntax. Please be mindful of the space the announcement will take up on the user's screen
+      appeal:
+        text: You can only appeal a strike once
       defaults:
         autofollow: People who sign up through the invite will automatically follow you
         avatar: PNG, GIF or JPG. At most %{size}. Will crunch down to %{dimensions}px
@@ -48,6 +56,7 @@ en-OU:
         phrase: Will be matched regardless of casing in text or content warning of a toot
         scopes: Which APIs the application will be allowed to access. If you select a top-level scope, you don't need to select individual ones.
         setting_aggregate_reblogs: Do not show new boosts for toots that have been recently boosted (only affects newly-received boosts)
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Mastodon
         setting_default_federation: With this off, your toots will not transmit off this instantiation normally, but can do so if you allow it during composition. With it on, normal action is for your toots to go out from this spot.
         setting_default_language: The language of your toots can be detected automatically, but it's not always accurate
         setting_default_sensitive: Sensitive media is hidden by default and can be revealed with a click
@@ -83,6 +92,8 @@ en-OU:
           no_access: Block access to all resources
           sign_up_requires_approval: New sign-ups will require your approval
         severity: Choose what will happen with requests from this IP
+      rule:
+        text: Describe a rule or requirement for users on this server. Try to keep it short and simple
       sessions:
         otp: 'Put in two-factor digits from an app or pick from your backup digits:'
         webauthn: If it's an USB key be sure to insert it and, if necessary, tap it.
@@ -121,6 +132,8 @@ en-OU:
         scheduled_at: Schedule publication
         starts_at: Start of event
         text: Announcement
+      appeal:
+        text: Explain why this decision should be reversed
       defaults:
         autofollow: Invite to follow your account
         avatar: Avatar
@@ -151,6 +164,7 @@ en-OU:
         phrase: Keyword or phrase
         setting_advanced_layout: Turn on multi-column UI
         setting_aggregate_reblogs: Group boosts in timelines
+        setting_always_send_emails: Always send e-mail notifications
         setting_auto_play_gif: Auto-play GIFs
         setting_boost_modal: Show confirmation dialog prior to boosting
         setting_crop_images: Crop images in non-expanded toots to 16x9
@@ -202,6 +216,7 @@ en-OU:
           sign_up_requires_approval: Limit sign-ups
         severity: Rule
       notification_emails:
+        appeal: Someone appeals a moderator decision
         digest: Bundling of mail
         favourite: Mail if anybody stars your status
         follow: Mail if anybody follows you
@@ -211,6 +226,8 @@ en-OU:
         reblog: Mail if anybody boosts your status
         report: Send e-mail when a new report is submitted
         trending_tag: An unreviewed hashtag is trending
+      rule:
+        text: Rule
       tag:
         listable: Allow this hashtag to appear in searches and on the profile directory
         name: Hashtag

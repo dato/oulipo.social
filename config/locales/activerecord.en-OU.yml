@@ -7,6 +7,15 @@ en-OU:
         options: Options
       status:
         text: Status
+      user:
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
+      user/account:
+        username: Username
+      user/invite_request:
+        text: Reason
     errors:
       messages:
         record_invalid: 'Validation did not pass: %{errors}'
@@ -15,6 +24,7 @@ en-OU:
           attributes:
             username:
               invalid: 'Valid glyphs: A-D and F-Z (plus small glyphs), 0-9, and "_"'
+              reserved: is reserved
               taken: That account was on our list prior to now. Sorry!
         status:
           attributes:
@@ -24,3 +34,8 @@ en-OU:
           attributes:
             name:
               invalid: Hashtag contains invalid symbol
+        user:
+          attributes:
+            email:
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist

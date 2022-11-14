@@ -81,13 +81,6 @@ en-OU:
       moderator: Mod
     unavailable: Can't show account info
     unfollow: Unfollow
-  activerecord:
-    attributes:
-      doorkeeper/application:
-        name: Name
-        redirect_uri: Redirect uri
-        scopes: Scopes
-        website: Website
   admin:
     account_actions:
       action: Perform action
@@ -1084,70 +1077,6 @@ en-OU:
       more_details_html: For more details, see the <a href="%{terms_path}">privacy policy</a>.
       username_available: Your username will become available again
       username_unavailable: Your username will remain unavailable
-  devise:
-    confirmations:
-      send_instructions: Send instructions
-    failure:
-      already_authenticated: Already authenticated
-      timeout: Timeout
-    mailer:
-      confirmation_instructions:
-        action: Action
-        action_with_app: Action with app
-        extra_html: Extra html
-        title: Title
-      email_changed:
-        explanation: Explanation
-        extra: Extra
-        subject: Subject
-        title: Title
-      password_change:
-        explanation: Explanation
-        extra: Extra
-        subject: Subject
-        title: Title
-      reconfirmation_instructions:
-        explanation: Explanation
-        extra: Extra
-        title: Title
-      reset_password_instructions:
-        action: Action
-        explanation: Explanation
-        extra: Extra
-        subject: Subject
-        title: Title
-      two_factor_disabled:
-        explanation: Explanation
-        subject: Subject
-        title: Title
-      two_factor_enabled:
-        explanation: Explanation
-        subject: Subject
-        title: Title
-      two_factor_recovery_codes_changed:
-        explanation: Explanation
-        subject: Subject
-        title: Title
-      webauthn_credential:
-        added:
-          explanation: Explanation
-          subject: Subject
-          title: Title
-        deleted:
-          explanation: Explanation
-          subject: Subject
-          title: Title
-      webauthn_disabled:
-        explanation: Explanation
-        subject: Subject
-        title: Title
-      webauthn_enabled:
-        explanation: Explanation
-        subject: Subject
-        title: Title
-    registrations:
-      signed_up_but_pending: Signed up but pending
-      signed_up_but_unconfirmed: Signed up but unconfirmed
   directories:
     directory: Account info list
     explanation: Find folks by discussion topics
@@ -1186,48 +1115,19 @@ en-OU:
     invalid_domain: is not a valid domain name
   doorkeeper:
     applications:
-      buttons:
-        submit: Submit
-      confirmations:
-        destroy: Destroy
-      help:
-        native_redirect_uri: Native redirect uri
-        redirect_uri: Redirect uri
       index:
-        application: Application
-        delete: Delete
         empty: Empty
-        new: New
-        scopes: Scopes
-        title: Title
-      new:
-        title: Title
-      show:
-        application_id: Application
-        secret: Secret
-        title: Title
     authorizations:
-      buttons:
-        authorize: Authorize
-        deny: Deny
       new:
         prompt_html: Prompt html
         review_permissions: Review permissions
-        title: Title
-      show:
-        title: Title
     authorized_applications:
-      buttons:
-        revoke: Revoke
-      confirmations:
-        revoke: Revoke
       index:
         authorized_at: Authorized at
         description_html: Description html
         last_used_at: Last used at
         never_used: Never used
         superapp: Superapp
-        title: Title
   errors:
     '400': The request you submitted was invalid or malformed.
     '403': You may not look at this spot.
@@ -1603,62 +1503,6 @@ en-OU:
     strikes: Moderation strikes
     two_factor_authentication: Two-factor Auth
     webauthn_authentication: Security keys
-  simple_form:
-    hints:
-      account_migration:
-        acct: Acct
-      admin_account_action:
-        text_html: Text html
-        type_html: Type html
-      defaults:
-        avatar: Avatar
-        bot: Bot
-        discoverable: Discoverable
-        fields: Fields
-        header: Header
-        locked: Locked
-        password: Password
-        scopes: Scopes
-        setting_hide_network: Setting hide network
-        username: Username
-      featured_tag:
-        name: Name
-      imports:
-        data: Data
-      sessions:
-        otp: Otp
-        webauthn: Webauthn
-    labels:
-      account:
-        fields:
-          name: Name
-          value: Value
-      account_alias:
-        acct: Acct
-      account_migration:
-        acct: Acct
-      defaults:
-        confirm_new_password: Confirm new password
-        confirm_password: Confirm password
-        context: Context
-        current_password: Current password
-        email: Email
-        fields: Fields
-        honeypot: Honeypot
-        locale: Locale
-        new_password: New password
-        otp_attempt: Otp attempt
-        password: Password
-        phrase: Phrase
-        setting_hide_network: Setting hide network
-        setting_theme: Setting theme
-        username: Username
-        username_or_email: Username or email
-    'no': 'No'
-    title:
-      sessions:
-        webauthn: Webauthn
-    'yes': 'Yes'
   statuses:
     attached:
       audio:
