@@ -289,6 +289,57 @@ en-OU:
         update_custom_emoji: Update Custom Emoji
         update_domain_block: Update Domain Block
         update_status: Update Status
+      actions:
+        approve_appeal_html: "%{name} approved moderation decision appeal from %{target}"
+        approve_user_html: "%{name} approved sign-up from %{target}"
+        assigned_to_self_report_html: "%{name} assigned report %{target} to themselves"
+        change_email_user_html: "%{name} changed the e-mail address of user %{target}"
+        confirm_user_html: "%{name} confirmed e-mail address of user %{target}"
+        create_account_warning_html: "%{name} sent a warning to %{target}"
+        create_announcement_html: "%{name} created new announcement %{target}"
+        create_custom_emoji_html: "%{name} uploaded new emoji %{target}"
+        create_domain_allow_html: "%{name} allowed federation with domain %{target}"
+        create_domain_block_html: "%{name} blocked domain %{target}"
+        create_email_domain_block_html: "%{name} blocked e-mail domain %{target}"
+        create_ip_block_html: "%{name} created rule for IP %{target}"
+        create_unavailable_domain_html: "%{name} stopped delivery to domain %{target}"
+        demote_user_html: "%{name} demoted user %{target}"
+        destroy_announcement_html: "%{name} deleted announcement %{target}"
+        destroy_custom_emoji_html: "%{name} destroyed emoji %{target}"
+        destroy_domain_allow_html: "%{name} disallowed federation with domain %{target}"
+        destroy_domain_block_html: "%{name} unblocked domain %{target}"
+        destroy_email_domain_block_html: "%{name} unblocked e-mail domain %{target}"
+        destroy_instance_html: "%{name} purged domain %{target}"
+        destroy_ip_block_html: "%{name} deleted rule for IP %{target}"
+        destroy_status_html: "%{name} removed post by %{target}"
+        destroy_unavailable_domain_html: "%{name} resumed delivery to domain %{target}"
+        disable_2fa_user_html: "%{name} disabled two factor requirement for user %{target}"
+        disable_custom_emoji_html: "%{name} disabled emoji %{target}"
+        disable_sign_in_token_auth_user_html: "%{name} disabled e-mail token authentication for %{target}"
+        disable_user_html: "%{name} disabled login for user %{target}"
+        enable_custom_emoji_html: "%{name} enabled emoji %{target}"
+        enable_sign_in_token_auth_user_html: "%{name} enabled e-mail token authentication for %{target}"
+        enable_user_html: "%{name} enabled login for user %{target}"
+        memorialize_account_html: "%{name} turned %{target}'s account into a memoriam page"
+        promote_user_html: "%{name} promoted user %{target}"
+        reject_appeal_html: "%{name} rejected moderation decision appeal from %{target}"
+        reject_user_html: "%{name} rejected sign-up from %{target}"
+        remove_avatar_user_html: "%{name} removed %{target}'s avatar"
+        reopen_report_html: "%{name} reopened report %{target}"
+        reset_password_user_html: "%{name} reset password of user %{target}"
+        resolve_report_html: "%{name} resolved report %{target}"
+        sensitive_account_html: "%{name} marked %{target}'s media as sensitive"
+        silence_account_html: "%{name} limited %{target}'s account"
+        suspend_account_html: "%{name} suspended %{target}'s account"
+        unassigned_report_html: "%{name} unassigned report %{target}"
+        unblock_email_account_html: "%{name} unblocked %{target}'s email address"
+        unsensitive_account_html: "%{name} unmarked %{target}'s media as sensitive"
+        unsilence_account_html: "%{name} undid limit of %{target}'s account"
+        unsuspend_account_html: "%{name} unsuspended %{target}'s account"
+        update_announcement_html: "%{name} updated announcement %{target}"
+        update_custom_emoji_html: "%{name} updated emoji %{target}"
+        update_domain_block_html: "%{name} updated domain block for %{target}"
+        update_status_html: "%{name} updated post by %{target}"
       deleted_status: "(deleted status)"
       empty: No logs found.
       filter_by_action: Filter by action
@@ -749,6 +800,7 @@ en-OU:
     tags:
       review: Review status
       updated_msg: Hashtag settings updated successfully
+    title: Administration
     trends:
       allow: Allow
       approved: Approved
@@ -805,6 +857,7 @@ en-OU:
         used_by_over_week:
           one: Used by one person over the last week
           other: Used by %{count} people over the last week
+      title: Trends
       trending: Trending
     warning_presets:
       add_new: Add new
@@ -814,6 +867,14 @@ en-OU:
       title: Manage warning presets
   admin_mailer:
     new_appeal:
+      actions:
+        delete_statuses: to delete their posts
+        disable: to freeze their account
+        mark_statuses_as_sensitive: to mark their posts as sensitive
+        none: a warning
+        sensitive: to mark their account as sensitive
+        silence: to limit their account
+        suspend: to suspend their account
       body: "%{target} is appealing a moderation decision by %{action_taken_by} from %{date}, which was %{type}. They wrote:"
       next_steps: You can approve the appeal to undo the moderation decision, or ignore it.
       subject: "%{username} is appealing a moderation decision on %{instance}"
@@ -1332,9 +1393,16 @@ en-OU:
       only_redirect_html: Or, if you want, you can <a href="%{path}">only show a link on your bio</a>.
       other_data: Not much data will show up on that account which you point to
       redirect: Your old account's bio will point away from your old account, and may not show up if folks look for it
+  moderation:
+    title: Moderation
   move_handler:
+    carry_blocks_over_text: This user moved from %{acct}, which you had blocked.
+    carry_mutes_over_text: This user moved from %{acct}, which you had muted.
     copy_account_note_text: 'This user moved from %{acct}, here were your previous notes about them:'
   notification_mailer:
+    admin:
+      sign_up:
+        subject: "%{name} signed up"
     digest:
       action: Look at all notifications
       body: This is a summary of activity you did not catch following your last visit on %{since}
@@ -1378,6 +1446,17 @@ en-OU:
     email_events: Events for e-mail notifications
     email_events_hint: 'Select events that you want to receive notifications for:'
     other_settings: Other notifications settings
+  number:
+    human:
+      decimal_units:
+        format: "%n%u"
+        units:
+          billion: B
+          million: M
+          quadrillion: Q
+          thousand: K
+          trillion: T
+          unit: Unit
   otp_authentication:
     code_hint: Enter the code generated by your authenticator app to confirm
     description_html: If you enable <strong>two-factor authentication</strong> using an authenticator app, logging in will require you to be in possession of your phone, which will generate tokens for you to enter.
@@ -1389,8 +1468,11 @@ en-OU:
   oulipo:
     invalid_symbol: Invalid symbol
   pagination:
+    newer: Newer
     next: Forward
+    older: Older
     prev: Back
+    truncate: "&hellip;"
   polls:
     errors:
       already_voted: You said your opinion prior to this
@@ -1403,6 +1485,7 @@ en-OU:
       too_few_options: must contain two options at minimum
       too_many_options: can't contain > %{max} options
   preferences:
+    other: Other
     posting_defaults: Posting defaults
     public_timelines: Public timelines
   reactions:
@@ -1498,18 +1581,23 @@ en-OU:
     title: Activity
     view_authentication_history: View authentication history of your account
   settings:
+    account: Account
     account_settings: Account settings
     aliases: Account aliases
     appearance: How Things Look
+    authorized_apps: Authorized apps
     back: Back to Mastodon
     delete: Throw away this account
+    development: Development
     edit_profile: Modify bio
     export: Data copying
     featured_tags: Featured hashtags
     import: Import
+    import_and_export: Import and export
     migrate: Account migration
     notifications: Notifications
     preferences: Options
+    profile: Profile
     relationships: Followings
     statuses_cleanup: Automated post deletion
     strikes: Moderation strikes
@@ -1573,7 +1661,16 @@ en-OU:
     'yes': 'Yes'
   statuses:
     attached:
+      audio:
+        one: "%{count} audio"
+        other: "%{count} audio"
       description: 'Attaching ok: %{attached}'
+      image:
+        one: "%{count} image"
+        other: "%{count} images"
+      video:
+        one: "%{count} video"
+        other: "%{count} videos"
     boosted_from_html: Boost from %{acct_link}
     content_warning: 'Topic warning: %{warning}'
     default_language: Same as interface language
