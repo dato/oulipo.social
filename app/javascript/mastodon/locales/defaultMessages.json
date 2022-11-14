@@ -1575,7 +1575,7 @@
         "id": "compose_form.hashtag_warning"
       },
       {
-        "defaultMessage": "Posts on Mastodon are not end-to-end encrypted. Do not share any sensitive information over Mastodon.",
+        "defaultMessage": "Posts on Mastodon are not end-to-end encrypted. Do not share any dangerous information over Mastodon.",
         "id": "compose_form.encryption_warning"
       },
       {
@@ -2743,10 +2743,6 @@
         "id": "status.cannot_reblog"
       },
       {
-        "defaultMessage": "This post is only visible by other users of your instance",
-        "id": "status.local_only"
-      },
-      {
         "defaultMessage": "Favourite",
         "id": "status.favourite"
       },
@@ -3452,31 +3448,6 @@
       }
     ],
     "path": "app/javascript/mastodon/features/ui/components/focal_point_modal.json"
-  },
-  {
-    "descriptors": [
-      {
-        "defaultMessage": "Federated",
-        "id": "federation.federated.short"
-      },
-      {
-        "defaultMessage": "Allow toot to reach other instances",
-        "id": "federation.federated.long"
-      },
-      {
-        "defaultMessage": "Local-only",
-        "id": "federation.local_only.short"
-      },
-      {
-        "defaultMessage": "Restrict this toot only to my instance",
-        "id": "federation.local_only.long"
-      },
-      {
-        "defaultMessage": "Adjust status federation",
-        "id": "federation.change"
-      }
-    ],
-    "path": "app/javascript/mastodon/features/compose/components/federation_dropdown.json"
   },
   {
     "descriptors": [
