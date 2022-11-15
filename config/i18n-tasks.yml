@@ -31,19 +31,19 @@ search:
     - app/assets/fonts
     - app/assets/videos
 
-#ignore_missing:
-#  - 'activemodel.errors.*'
-#  - 'activerecord.attributes.*'
-#  - 'activerecord.errors.*'
-#  - '{pagination,doorkeeper}.*'
-#  - '{date,datetime,time,number}.*'
-#  - 'errors.messages.*'
-#  - 'activerecord.errors.models.doorkeeper/*'
-#  - 'sessions.{browsers,platforms}.*'
-#  - 'terms.body_html'
-#  - 'application_mailer.salutation'
-#  - 'errors.500'
-#  - 'auth.providers.*'
+# ignore_missing:
+#   - 'activemodel.errors.*'
+#   - 'activerecord.attributes.*'
+#   - 'activerecord.errors.*'
+#   - '{pagination,doorkeeper}.*'
+#   - '{date,datetime,time,number}.*'
+#   - 'errors.messages.*'
+#   - 'activerecord.errors.models.doorkeeper/*'
+#   - 'sessions.{browsers,platforms}.*'
+#   - 'terms.body_html'
+#   - 'application_mailer.salutation'
+#   - 'errors.500'
+#   - 'auth.providers.*'
 
 ignore_unused:
   - 'activemodel.errors.*'

@@ -372,7 +372,7 @@ en-OU:
       enable: Enable
       enabled: Enabled
       enabled_msg: Successfully enabled that emoji
-      image_hint: PNG up to 50KB
+      image_hint: PNG or GIF up to %{size}
       list: List
       listed: Listed
       new:
@@ -1113,21 +1113,6 @@ en-OU:
       your_appeal_rejected: Your appeal has been rejected
   domain_validator:
     invalid_domain: is not a valid domain name
-  doorkeeper:
-    applications:
-      index:
-        empty: Empty
-    authorizations:
-      new:
-        prompt_html: Prompt html
-        review_permissions: Review permissions
-    authorized_applications:
-      index:
-        authorized_at: Authorized at
-        description_html: Description html
-        last_used_at: Last used at
-        never_used: Never used
-        superapp: Superapp
   errors:
     '400': The request you submitted was invalid or malformed.
     '403': You may not look at this spot.

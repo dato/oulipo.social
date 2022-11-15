@@ -38,6 +38,7 @@ en-OU:
         application: Application
         callback_url: Callback URL
         delete: Discard
+        empty: You have no applications.
         name: Name
         new: New application
         scopes: Scopes
@@ -59,8 +60,8 @@ en-OU:
       error:
         title: An error has occurred
       new:
-        able_to: It will be able to
-        prompt: Application %{client_name} requests access to your account
+        prompt_html: "%{client_name} would like permission to access your account. It is a third-party application. <strong>If you do not trust it, then you should not authorize it.</strong>"
+        review_permissions: Review permissions
         title: Authorization required
       show:
         title: Copy this authorization code and paste it to the application.
@@ -70,10 +71,12 @@ en-OU:
       confirmations:
         revoke: Are you sure?
       index:
-        application: Application
-        created_at: Authorized
-        date_format: "%Y-%m-%d %H:%M:%S"
-        scopes: Scopes
+        authorized_at: Authorized on %{date}
+        description_html: These are applications that can access your account using the API. If there are applications you do not recognize here, or an application is misbehaving, you can revoke its access.
+        last_used_at: Last used on %{date}
+        never_used: Never used
+        scopes: Permissions
+        superapp: Internal
         title: Your authorized applications
     errors:
       messages:
