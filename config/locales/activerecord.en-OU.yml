@@ -26,6 +26,18 @@ en-OU:
               invalid: 'Valid glyphs: A-D and F-Z (plus small glyphs), 0-9, and "_"'
               reserved: is reserved
               taken: That account was on our list prior to now. Sorry!
+        admin/webhook:
+          attributes:
+            url:
+              invalid: is not a valid URL
+        doorkeeper/application:
+          attributes:
+            website:
+              invalid: is not a valid URL
+        import:
+          attributes:
+            data:
+              malformed: is malformed
         status:
           attributes:
             reblog:
@@ -39,3 +51,14 @@ en-OU:
             email:
               blocked: uses a disallowed e-mail provider
               unreachable: does not seem to exist
+            role_id:
+              elevated: cannot be higher than your current role
+        user_role:
+          attributes:
+            permissions_as_keys:
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
+            position:
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
