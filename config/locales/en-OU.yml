@@ -8,7 +8,9 @@ en-OU:
     title: About
   accounts:
     follow: Follow
-    followers: Accounts following
+    followers:
+      one: Who Follows
+      other: Who Follow
     following: Following
     instance_actor_flash: This account is a virtual actor used to represent the server itself and not any individual user. It is used for federation purposes and should not be suspended.
     last_active: last activity
