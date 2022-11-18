@@ -965,7 +965,7 @@ en-OU:
     rules:
       accept: Accept
       back: Back
-      preamble: %{domain} mods will hold you to this.
+      preamble: "%{domain} mods will hold you to this."
       title: Basic guiding laws
     security: Password and such
     set_new_password: Pick a password
