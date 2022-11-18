@@ -8,14 +8,14 @@ en-OU:
       status:
         text: Status
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
+        agreement: Law stuff
+        email: Mail
+        locale: Idiom
         password: Password
       user/account:
-        username: Username
+        username: Alias
       user/invite_request:
-        text: Reason
+        text: Why?
     errors:
       messages:
         record_invalid: 'Validation did not pass: %{errors}'
@@ -24,7 +24,7 @@ en-OU:
           attributes:
             username:
               invalid: 'Valid glyphs: A-D and F-Z (plus small glyphs), 0-9, and "_"'
-              reserved: is reserved
+              reserved: isn''t vacant 
               taken: That account was on our list prior to now. Sorry!
         admin/webhook:
           attributes:
@@ -37,11 +37,11 @@ en-OU:
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: is of poor construction
         status:
           attributes:
             reblog:
-              taken: of status already exists
+              taken: of post was around prior to this
         tag:
           attributes:
             name:
@@ -49,8 +49,8 @@ en-OU:
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: is using a bad mail host
+              unreachable: is not found
             role_id:
               elevated: cannot be higher than your current role
         user_role:
