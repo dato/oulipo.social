@@ -607,7 +607,6 @@
   "tabs_bar.home": "Origin",
   "tabs_bar.local_timeline": "Local",
   "tabs_bar.notifications": "Notifications",
-  "tabs_bar.search": "Inquiry",
   "time_remaining.days": "{number, plural, one {# day} other {# days}} to go",
   "time_remaining.hours": "{number, plural, one {# hour} other {# hours}} to go",
   "time_remaining.minutes": "{number, plural, one {# min} other {# mins}} to go",
