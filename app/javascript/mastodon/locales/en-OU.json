@@ -291,7 +291,7 @@
   "home.column_settings.show_replies": "Show chats",
   "home.hide_announcements": "Hide proclamations",
   "home.show_announcements": "Show proclamations",
-    "interaction_modal.description.favourite": "With an account on Mastodon, you can star this toot to applaud its author and to guard it in your stash.",
+  "interaction_modal.description.favourite": "With an account on Mastodon, you can star this toot to applaud its author and to guard it in your stash.",
   "interaction_modal.description.follow": "With an account on Mastodon, you can follow {name} to looks at toots from that account on your origin.",
   "interaction_modal.description.reblog": "With an account on Mastodon, you can boost this toot to show it to folks who follow you.",
   "interaction_modal.description.reply": "With an account on Mastodon, you can toot back.",
