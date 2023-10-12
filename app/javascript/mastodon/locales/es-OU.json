@@ -1,0 +1,2605 @@
+// vi:ft=jsonc
+{
+  // es_AR: Servidores moderados
+  // es_ES: Servidores moderados
+  // es_MX: Servidores moderados
+  "about.blocks": "",
+  // es_AR: Contacto:
+  // es_ES: Contacto:
+  // es_MX: Contacto:
+  "about.contact": "",
+  // es_AR: Mastodon es software libre y de código abierto y una marca comercial de Mastodon gGmbH.
+  // es_ES: Mastodon es software de código abierto, y una marca comercial de Mastodon gGmbH.
+  // es_MX: Mastodon es software de código abierto, y una marca comercial de Mastodon gGmbH.
+  "about.disclaimer": "",
+  // es_AR: Motivo no disponible
+  // es_ES: Razón no disponible
+  // es_MX: Reason not available
+  "about.domain_blocks.no_reason_available": "",
+  // es_AR: Mastodon normalmente te permite ver el contenido e interactuar con los usuarios de cualquier otro servidor en el fediverso. Estas son las excepciones que se han hecho en este servidor en particular.
+  // es_ES: Mastodon normalmente te permite ver el contenido e interactuar con los usuarios de cualquier otro servidor en el fediverso. Estas son las excepciones que se han hecho en este servidor en particular.
+  // es_MX: Mastodon normalmente te permite ver el contenido e interactuar con los usuarios de cualquier otro servidor en el fediverso. Estas son las excepciones que se han hecho en este servidor en particular.
+  "about.domain_blocks.preamble": "",
+  // es_AR: Normalmente no verás perfiles y contenido de este servidor, a menos que lo busqués explícitamente o sigás alguna cuenta.
+  // es_ES: Normalmente no verás perfiles y contenido de este servidor, a menos que lo busques explícitamente o sigas alguna cuenta.
+  // es_MX: Normalmente no verás perfiles y contenido de este servidor, a menos que lo busques explícitamente o sigas alguna cuenta.
+  "about.domain_blocks.silenced.explanation": "",
+  // es_AR: Limitados
+  // es_ES: Limitado
+  // es_MX: Limitado
+  "about.domain_blocks.silenced.title": "",
+  // es_AR: Ningún dato de este servidor será procesado, almacenado o intercambiado, haciendo imposible cualquier interacción o comunicación con los usuarios de este servidor.
+  // es_ES: Ningún dato de este servidor será procesado, almacenado o intercambiado, haciendo imposible cualquier interacción o comunicación con los usuarios de este servidor.
+  // es_MX: Ningún dato de este servidor será procesado, almacenado o intercambiado, haciendo imposible cualquier interacción o comunicación con los usuarios de este servidor.
+  "about.domain_blocks.suspended.explanation": "",
+  // es_AR: Suspendidos
+  // es_ES: Suspendido
+  // es_MX: Suspendido
+  "about.domain_blocks.suspended.title": "",
+  // es_AR: Esta información no está disponible en este servidor.
+  // es_ES: Esta información no está disponible en este servidor.
+  // es_MX: Esta información no está disponible en este servidor.
+  "about.not_available": "",
+  // es_AR: Redes sociales descentralizadas con tecnología de {mastodon}
+  // es_ES: Redes sociales descentralizadas con tecnología de {mastodon}
+  // es_MX: Redes sociales descentralizadas con tecnología de {mastodon}
+  "about.powered_by": "",
+  // es_AR: Reglas del servidor
+  // es_ES: Reglas del servidor
+  // es_MX: Reglas del servidor
+  "about.rules": "",
+  // es_AR: Nota
+  // es_ES: Nota
+  // es_MX: Nota
+  "account.account_note_header": "",
+  // es_AR: Agregar o quitar de las listas
+  // es_ES: Agregar o eliminar de listas
+  // es_MX: Agregar o eliminar de las listas
+  "account.add_or_remove_from_list": "",
+  // es_AR: Bot
+  // es_ES: Bot
+  // es_MX: Bot
+  "account.badges.bot": "",
+  // es_AR: Grupo
+  // es_ES: Grupo
+  // es_MX: Grupo
+  "account.badges.group": "",
+  // es_AR: Bloquear a @{name}
+  // es_ES: Bloquear a @{name}
+  // es_MX: Bloquear a @{name}
+  "account.block": "",
+  // es_AR: Bloquear dominio {domain}
+  // es_ES: Bloquear dominio {domain}
+  // es_MX: Bloquear dominio {domain}
+  "account.block_domain": "",
+  // es_AR: Bloqueado
+  // es_ES: Bloqueado
+  // es_MX: Bloqueado
+  "account.blocked": "",
+  // es_AR: Explorar más en el perfil original
+  // es_ES: Ver más en el perfil original
+  // es_MX: Ver más en el perfil original
+  "account.browse_more_on_origin_server": "",
+  // es_AR: Retirar la solicitud de seguimiento
+  // es_ES: Retirar solicitud de seguimiento
+  // es_MX: Retirar solicitud de seguimiento
+  "account.cancel_follow_request": "",
+  // es_AR: Mensaje directo a @{name}
+  // es_ES: Mensaje directo a @{name}
+  // es_MX: Mensaje directo a @{name}
+  "account.direct": "",
+  // es_AR: Dejar de notificarme cuando @{name} envíe mensajes
+  // es_ES: Dejar de notificarme cuando @{name} publique algo
+  // es_MX: Dejar de notificarme cuando @{name} publique algo
+  "account.disable_notifications": "",
+  // es_AR: Dominio bloqueado
+  // es_ES: Dominio oculto
+  // es_MX: Dominio oculto
+  "account.domain_blocked": "",
+  // es_AR: Editar perfil
+  // es_ES: Editar perfil
+  // es_MX: Editar perfil
+  "account.edit_profile": "",
+  // es_AR: Notificarme cuando @{name} envíe mensajes
+  // es_ES: Notificarme cuando @{name} publique algo
+  // es_MX: Notificarme cuando @{name} publique algo
+  "account.enable_notifications": "",
+  // es_AR: Destacar en el perfil
+  // es_ES: Mostrar en perfil
+  // es_MX: Destacar en mi perfil
+  "account.endorse": "",
+  // es_AR: Último mensaje: {date}
+  // es_ES: Última publicación el {date}
+  // es_MX: Última publicación el {date}
+  "account.featured_tags.last_status_at": "",
+  // es_AR: Sin mensajes
+  // es_ES: Sin publicaciones
+  // es_MX: Sin publicaciones
+  "account.featured_tags.last_status_never": "",
+  // es_AR: Etiquetas destacadas de {name}
+  // es_ES: Etiquetas destacadas de {name}
+  // es_MX: Etiquetas destacadas de {name}
+  "account.featured_tags.title": "",
+  // es_AR: Seguir
+  // es_ES: Seguir
+  // es_MX: Seguir
+  "account.follow": "",
+  // es_AR: Seguidores
+  // es_ES: Seguidores
+  // es_MX: Seguidores
+  "account.followers": "",
+  // es_AR: Todavía nadie sigue a este usuario.
+  // es_ES: Todavía nadie sigue a este usuario.
+  // es_MX: Todavía nadie sigue a este usuario.
+  "account.followers.empty": "",
+  // es_AR: {count, plural, one {{counter} Seguidor} other {{counter} Seguidores}}
+  // es_ES: {count, plural, one {{counter} Seguidor} other {{counter} Seguidores}}
+  // es_MX: {count, plural, one {{counter} Seguidor} other {{counter} Seguidores}}
+  "account.followers_counter": "",
+  // es_AR: Siguiendo
+  // es_ES: Siguiendo
+  // es_MX: Siguiendo
+  "account.following": "",
+  // es_AR: {count, plural, other {{counter} Siguiendo}}
+  // es_ES: {count, plural, other {{counter} Siguiendo}}
+  // es_MX: {count, plural, other {{counter} Siguiendo}}
+  "account.following_counter": "",
+  // es_AR: Todavía este usuario no sigue a nadie.
+  // es_ES: Este usuario todavía no sigue a nadie.
+  // es_MX: Este usuario todavía no sigue a nadie.
+  "account.follows.empty": "",
+  // es_AR: Te sigue
+  // es_ES: Te sigue
+  // es_MX: Te sigue
+  "account.follows_you": "",
+  // es_AR: Ir al perfil
+  // es_ES: Ir al perfil
+  // es_MX: Ir al perfil
+  "account.go_to_profile": "",
+  // es_AR: Ocultar adhesiones de @{name}
+  // es_ES: Ocultar retoots de @{name}
+  // es_MX: Ocultar retoots de @{name}
+  "account.hide_reblogs": "",
+  // es_AR: En este servidor desde
+  // es_ES: Se unió
+  // es_MX: Se unió
+  "account.joined_short": "",
+  // es_AR: Cambiar idiomas suscritos
+  // es_ES: Cambiar idiomas suscritos
+  // es_MX: Cambiar idiomas suscritos
+  "account.languages": "",
+  // es_AR: La propiedad de este enlace fue verificada el {date}
+  // es_ES: El proprietario de este link fue comprobado el {date}
+  // es_MX: El proprietario de este link fue comprobado el {date}
+  "account.link_verified_on": "",
+  // es_AR: Esta cuenta es privada. El propietario manualmente revisa quién puede seguirle.
+  // es_ES: El estado de privacidad de esta cuenta està configurado como bloqueado. El proprietario debe revisar manualmente quien puede seguirle.
+  // es_MX: El estado de privacidad de esta cuenta està configurado como bloqueado. El proprietario debe revisar manualmente quien puede seguirle.
+  "account.locked_info": "",
+  // es_AR: Medios
+  // es_ES: Multimedia
+  // es_MX: Multimedia
+  "account.media": "",
+  // es_AR: Mencionar a @{name}
+  // es_ES: Mencionar a @{name}
+  // es_MX: Mencionar @{name}
+  "account.mention": "",
+  // es_AR: {name} indicó que su nueva cuenta ahora es:
+  // es_ES: {name} ha indicado que su nueva cuenta es ahora:
+  // es_MX: {name} ha indicado que su nueva cuenta es ahora:
+  "account.moved_to": "",
+  // es_AR: Silenciar a @{name}
+  // es_ES: Silenciar a @{name}
+  // es_MX: Silenciar a @{name}
+  "account.mute": "",
+  // es_AR: Silenciar notificaciones de @{name}
+  // es_ES: Silenciar notificaciones de @{name}
+  // es_MX: Silenciar notificaciones de @{name}
+  "account.mute_notifications": "",
+  // es_AR: Silenciado
+  // es_ES: Silenciado
+  // es_MX: Silenciado
+  "account.muted": "",
+  // es_AR: Abrir página original
+  // es_ES: Abrir página original
+  // es_MX: Open original page
+  "account.open_original_page": "",
+  // es_AR: Mensajes
+  // es_ES: Publicaciones
+  // es_MX: Publicaciones
+  "account.posts": "",
+  // es_AR: Mnsjs y resp. públicas
+  // es_ES: Publicaciones y respuestas
+  // es_MX: Publicaciones y respuestas
+  "account.posts_with_replies": "",
+  // es_AR: Denunciar a @{name}
+  // es_ES: Reportar a @{name}
+  // es_MX: Reportar a @{name}
+  "account.report": "",
+  // es_AR: Esperando aprobación. Hacé clic para cancelar la solicitud de seguimiento
+  // es_ES: Esperando aprobación
+  // es_MX: Esperando aprobación. Haga clic para cancelar la solicitud de seguimiento
+  "account.requested": "",
+  // es_AR: Compartir el perfil de @{name}
+  // es_ES: Compartir el perfil de @{name}
+  // es_MX: Compartir el perfil de @{name}
+  "account.share": "",
+  // es_AR: Mostrar adhesiones de @{name}
+  // es_ES: Mostrar retoots de @{name}
+  // es_MX: Mostrar retoots de @{name}
+  "account.show_reblogs": "",
+  // es_AR: {count, plural, one {{counter} Mensaje} other {{counter} Mensajes}}
+  // es_ES: {count, plural, one {{counter} Publicación} other {{counter} Publicaciones}}
+  // es_MX: {count, plural, one {{counter} Toot} other {{counter} Toots}}
+  "account.statuses_counter": "",
+  // es_AR: Desbloquear a @{name}
+  // es_ES: Desbloquear a @{name}
+  // es_MX: Desbloquear a @{name}
+  "account.unblock": "",
+  // es_AR: Desbloquear dominio {domain}
+  // es_ES: Mostrar a {domain}
+  // es_MX: Mostrar a {domain}
+  "account.unblock_domain": "",
+  // es_AR: Desbloquear
+  // es_ES: Desbloquear
+  // es_MX: Desbloquear
+  "account.unblock_short": "",
+  // es_AR: No destacar en el perfil
+  // es_ES: No mostrar en el perfil
+  // es_MX: No mostrar en el perfil
+  "account.unendorse": "",
+  // es_AR: Dejar de seguir
+  // es_ES: Dejar de seguir
+  // es_MX: Dejar de seguir
+  "account.unfollow": "",
+  // es_AR: Dejar de silenciar a @{name}
+  // es_ES: Dejar de silenciar a @{name}
+  // es_MX: Dejar de silenciar a @{name}
+  "account.unmute": "",
+  // es_AR: Dejar de silenciar las notificaciones de @{name}
+  // es_ES: Dejar de silenciar las notificaciones de @{name}
+  // es_MX: Dejar de silenciar las notificaciones de @{name}
+  "account.unmute_notifications": "",
+  // es_AR: Dejar de silenciar
+  // es_ES: Dejar de silenciar
+  // es_MX: Desmutear
+  "account.unmute_short": "",
+  // es_AR: Hacé clic par agregar una nota
+  // es_ES: Clic para añadir nota
+  // es_MX: Clic para añadir nota
+  "account_note.placeholder": "",
+  // es_AR: Tasa de retención de usuarios por día, después del registro
+  // es_ES: Tasa de retención de usuarios por día después del registro
+  // es_MX: Tasa de retención de usuarios por día después de unirse
+  "admin.dashboard.daily_retention": "",
+  // es_AR: Tasa de retención de usuarios por mes, después del registro
+  // es_ES: Tasa de retención de usuarios por mes después del registro
+  // es_MX: Tasa de retención de usuarios por mes después de unirse
+  "admin.dashboard.monthly_retention": "",
+  // es_AR: Promedio
+  // es_ES: Media
+  // es_MX: Promedio
+  "admin.dashboard.retention.average": "",
+  // es_AR: Mes de registro
+  // es_ES: Mes de registro
+  // es_MX: Mes de registro
+  "admin.dashboard.retention.cohort": "",
+  // es_AR: Nuevos usuarios
+  // es_ES: Nuevos usuarios
+  // es_MX: Nuevos usuarios
+  "admin.dashboard.retention.cohort_size": "",
+  // es_AR: Por favor, reintentá después de las {retry_time, time, medium}.
+  // es_ES: Por favor reintente después de {retry_time, time, medium}.
+  // es_MX: Por favor reintente después de {retry_time, time, medium}.
+  "alert.rate_limited.message": "",
+  // es_AR: Acción limitada
+  // es_ES: Tarifa limitada
+  // es_MX: Tarifa limitada
+  "alert.rate_limited.title": "",
+  // es_AR: Ocurrió un error.
+  // es_ES: Hubo un error inesperado.
+  // es_MX: Hubo un error inesperado.
+  "alert.unexpected.message": "",
+  // es_AR: ¡Epa!
+  // es_ES: ¡Ups!
+  // es_MX: ¡Ups!
+  "alert.unexpected.title": "",
+  // es_AR: Anuncio
+  // es_ES: Anuncio
+  // es_MX: Anuncio
+  "announcement.announcement": "",
+  // es_AR: [sin procesar]
+  // es_ES: (sin procesar)
+  // es_MX: (sin procesar)
+  "attachments_list.unprocessed": "",
+  // es_AR: Ocultar audio
+  // es_ES: Ocultar audio
+  // es_MX: Ocultar audio
+  "audio.hide": "",
+  // es_AR: {count} por semana
+  // es_ES: {count} por semana
+  // es_MX: {count} por semana
+  "autosuggest_hashtag.per_week": "",
+  // es_AR: Podés hacer clic en {combo} para saltar esto la próxima vez
+  // es_ES: Puedes hacer clic en {combo} para saltar este aviso la próxima vez
+  // es_MX: Puedes hacer clic en {combo} para saltar este aviso la próxima vez
+  "boost_modal.combo": "",
+  // es_AR: Copiar informe de error
+  // es_ES: Copiar informe de error
+  // es_MX: Copiar informe de error
+  "bundle_column_error.copy_stacktrace": "",
+  // es_AR: La página solicitada no pudo ser cargada. Podría deberse a un error de programación en nuestro código o a un problema de compatibilidad con el navegador web.
+  // es_ES: La página solicitada no pudo ser renderizada. Podría deberse a un error en nuestro código o a un problema de compatibilidad con el navegador.
+  // es_MX: La página solicitada no pudo ser renderizada. Podría deberse a un error en nuestro código o a un problema de compatibilidad con el navegador.
+  "bundle_column_error.error.body": "",
+  // es_AR: ¡Epa!
+  // es_ES: ¡Oh, no!
+  // es_MX: ¡Oh, no!
+  "bundle_column_error.error.title": "",
+  // es_AR: Se produjo un error al intentar cargar esta página. Esto puede deberse a un problema temporal con tu conexión a internet o a este servidor.
+  // es_ES: Se ha producido un error al intentar cargar esta página. Esto puede deberse a un problema temporal con tu conexión a internet o a este servidor.
+  // es_MX: Se ha producido un error al intentar cargar esta página. Esto puede deberse a un problema temporal con tu conexión a internet o a este servidor.
+  "bundle_column_error.network.body": "",
+  // es_AR: Error de red
+  // es_ES: Error de red
+  // es_MX: Error de red
+  "bundle_column_error.network.title": "",
+  // es_AR: Intentá de nuevo
+  // es_ES: Inténtalo de nuevo
+  // es_MX: Inténtalo de nuevo
+  "bundle_column_error.retry": "",
+  // es_AR: Volver al inicio
+  // es_ES: Volver al inicio
+  // es_MX: Volver al inicio
+  "bundle_column_error.return": "",
+  // es_AR: No se pudo encontrar la página solicitada. ¿Estás seguro que la dirección web es correcta?
+  // es_ES: No se pudo encontrar la página solicitada. ¿Estás seguro de que la URL en la barra de direcciones es correcta?
+  // es_MX: No se pudo encontrar la página solicitada. ¿Estás seguro de que la URL en la barra de direcciones es correcta?
+  "bundle_column_error.routing.body": "",
+  // es_AR: 404
+  // es_ES: 404
+  // es_MX: 404
+  "bundle_column_error.routing.title": "",
+  // es_AR: Cerrar
+  // es_ES: Cerrar
+  // es_MX: Cerrar
+  "bundle_modal_error.close": "",
+  // es_AR: Algo salió mal al cargar este componente.
+  // es_ES: Algo salió mal al cargar este componente.
+  // es_MX: Algo salió mal al cargar este componente.
+  "bundle_modal_error.message": "",
+  // es_AR: Intentá de nuevo
+  // es_ES: Inténtalo de nuevo
+  // es_MX: Inténtalo de nuevo
+  "bundle_modal_error.retry": "",
+  // es_AR: Ya que Mastodon es descentralizado, podés crearte una cuenta en otro servidor y todavía interactuar con éste.
+  // es_ES: Como Mastodon es descentralizado, puedes crear una cuenta en otro servidor y seguir interactuando con este.
+  // es_MX: Como Mastodon es descentralizado, puedes crear una cuenta en otro servidor y seguir interactuando con este.
+  "closed_registrations.other_server_instructions": "",
+  // es_AR: Actualmente no es posible la creación de una cuenta en {domain}. pero tené en cuenta que no necesitás una cuenta específica en {domain} para usar Mastodon.
+  // es_ES: La creación de una cuenta en {domain} no es posible actualmente, pero ten en cuenta que no necesitas una cuenta específicamente en {domain} para usar Mastodon.
+  // es_MX: La creación de una cuenta en {domain} no es posible actualmente, pero ten en cuenta que no necesitas una cuenta específicamente en {domain} para usar Mastodon.
+  "closed_registrations_modal.description": "",
+  // es_AR: Buscar otro servidor
+  // es_ES: Buscar otro servidor
+  // es_MX: Buscar otro servidor
+  "closed_registrations_modal.find_another_server": "",
+  // es_AR: Mastodon es descentralizado, por lo que no importa dónde creés tu cuenta, podrás seguir e interactuar con cualquier persona en este servidor. ¡Incluso podés montar tu propio servidor!
+  // es_ES: Mastodon es descentralizado, por lo que no importa dónde crees tu cuenta, podrás seguir e interactuar con cualquier persona en este servidor. ¡Incluso puedes alojarlo tú mismo!
+  // es_MX: Mastodon es descentralizado, por lo que no importa dónde crees tu cuenta, podrás seguir e interactuar con cualquier persona en este servidor. ¡Incluso puedes alojarlo tú mismo!
+  "closed_registrations_modal.preamble": "",
+  // es_AR: Registrarse en Mastodon
+  // es_ES: Registrarse en Mastodon
+  // es_MX: Registrarse en Mastodon
+  "closed_registrations_modal.title": "",
+  // es_AR: Información
+  // es_ES: Acerca de
+  // es_MX: Acerca de
+  "column.about": "",
+  // es_AR: Usuarios bloqueados
+  // es_ES: Usuarios bloqueados
+  // es_MX: Usuarios bloqueados
+  "column.blocks": "",
+  // es_AR: Marcadores
+  // es_ES: Marcadores
+  // es_MX: Marcadores
+  "column.bookmarks": "",
+  // es_AR: Línea temporal local
+  // es_ES: Línea de tiempo local
+  // es_MX: Línea de tiempo local
+  "column.community": "",
+  // es_AR: Mensajes directos
+  // es_ES: Mensajes directos
+  // es_MX: Mensajes directos
+  "column.direct": "",
+  // es_AR: Explorar perfiles
+  // es_ES: Buscar perfiles
+  // es_MX: Buscar perfiles
+  "column.directory": "",
+  // es_AR: Dominios bloqueados
+  // es_ES: Dominios ocultados
+  // es_MX: Dominios ocultados
+  "column.domain_blocks": "",
+  // es_AR: Favoritos
+  // es_ES: Favoritos
+  // es_MX: Favoritos
+  "column.favourites": "",
+  // es_AR: Solicitudes de seguimiento
+  // es_ES: Solicitudes de seguimiento
+  // es_MX: Solicitudes de seguimiento
+  "column.follow_requests": "",
+  // es_AR: Principal
+  // es_ES: Inicio
+  // es_MX: Inicio
+  "column.home": "",
+  // es_AR: Listas
+  // es_ES: Listas
+  // es_MX: Listas
+  "column.lists": "",
+  // es_AR: Usuarios silenciados
+  // es_ES: Usuarios silenciados
+  // es_MX: Usuarios silenciados
+  "column.mutes": "",
+  // es_AR: Notificaciones
+  // es_ES: Notificaciones
+  // es_MX: Notificaciones
+  "column.notifications": "",
+  // es_AR: Mensajes fijados
+  // es_ES: Publicaciones fijadas
+  // es_MX: Toots fijados
+  "column.pins": "",
+  // es_AR: Línea temporal federada
+  // es_ES: Línea de tiempo federada
+  // es_MX: Línea de tiempo federada
+  "column.public": "",
+  // es_AR: Volver
+  // es_ES: Atrás
+  // es_MX: Atrás
+  "column_back_button.label": "",
+  // es_AR: Ocultar configuración
+  // es_ES: Ocultar configuración
+  // es_MX: Ocultar configuración
+  "column_header.hide_settings": "",
+  // es_AR: Mover columna a la izquierda
+  // es_ES: Mover columna a la izquierda
+  // es_MX: Mover columna a la izquierda
+  "column_header.moveLeft_settings": "",
+  // es_AR: Mover columna a la derecha
+  // es_ES: Mover columna a la derecha
+  // es_MX: Mover columna a la derecha
+  "column_header.moveRight_settings": "",
+  // es_AR: Fijar
+  // es_ES: Fijar
+  // es_MX: Fijar
+  "column_header.pin": "",
+  // es_AR: Mostrar configuración
+  // es_ES: Mostrar ajustes
+  // es_MX: Mostrar ajustes
+  "column_header.show_settings": "",
+  // es_AR: Dejar de fijar
+  // es_ES: Dejar de fijar
+  // es_MX: Dejar de fijar
+  "column_header.unpin": "",
+  // es_AR: Configuración
+  // es_ES: Ajustes
+  // es_MX: Ajustes
+  "column_subheading.settings": "",
+  // es_AR: Sólo local
+  // es_ES: Solo local
+  // es_MX: Solo local
+  "community.column_settings.local_only": "",
+  // es_AR: Sólo medios
+  // es_ES: Solo media
+  // es_MX: Solo media
+  "community.column_settings.media_only": "",
+  // es_AR: Sólo remoto
+  // es_ES: Solo remoto
+  // es_MX: Solo remoto
+  "community.column_settings.remote_only": "",
+  // es_AR: Cambiar idioma
+  // es_ES: Cambiar idioma
+  // es_MX: Cambiar idioma
+  "compose.language.change": "",
+  // es_AR: Buscar idiomas…
+  // es_ES: Buscar idiomas...
+  // es_MX: Buscar idiomas...
+  "compose.language.search": "",
+  // es_AR: Aprendé más
+  // es_ES: Aprender más
+  // es_MX: Aprender mas
+  "compose_form.direct_message_warning_learn_more": "",
+  // es_AR: Los mensajes en Mastodon no están cifrados de extremo a extremo. No compartas ninguna información sensible al usar Mastodon.
+  // es_ES: Las publicaciones en Mastodon no están cifradas de extremo a extremo. No comparta ninguna información sensible en Mastodon.
+  // es_MX: Las publicaciones en Mastodon no están cifradas de extremo a extremo. No comparta ninguna información sensible en Mastodon.
+  "compose_form.encryption_warning": "",
+  // es_AR: Este mensaje no se mostrará bajo ninguna etiqueta porque no es público. Sólo los mensajes públicos se pueden buscar por etiquetas.
+  // es_ES: Esta publicación no se mostrará bajo ningún hashtag porque no está listada. Sólo las publicaciones públicas se pueden buscar por hashtag.
+  // es_MX: Este toot no se mostrará bajo hashtags porque no es público. Sólo los toots públicos se pueden buscar por hashtag.
+  "compose_form.hashtag_warning": "",
+  // es_AR: Tu cuenta no es {locked}. Todos pueden seguirte para ver tus mensajes marcados como \"Sólo para seguidores\".
+  // es_ES: Tu cuenta no está {locked}. Todos pueden seguirte para ver tus publicaciones solo para seguidores.
+  // es_MX: Tu cuenta no está bloqueada. Todos pueden seguirte para ver tus toots solo para seguidores.
+  "compose_form.lock_disclaimer": "",
+  // es_AR: privada
+  // es_ES: bloqueado
+  // es_MX: bloqueado
+  "compose_form.lock_disclaimer.lock": "",
+  // es_AR: ¿Qué onda?
+  // es_ES: ¿En qué estás pensando?
+  // es_MX: ¿En qué estás pensando?
+  "compose_form.placeholder": "",
+  // es_AR: Agregá una opción
+  // es_ES: Añadir una opción
+  // es_MX: Añadir una opción
+  "compose_form.poll.add_option": "",
+  // es_AR: Duración de la encuesta
+  // es_ES: Duración de la encuesta
+  // es_MX: Duración de la encuesta
+  "compose_form.poll.duration": "",
+  // es_AR: Opción {number}
+  // es_ES: Elección {number}
+  // es_MX: Elección {number}
+  "compose_form.poll.option_placeholder": "",
+  // es_AR: Quitar esta opción
+  // es_ES: Eliminar esta opción
+  // es_MX: Eliminar esta opción
+  "compose_form.poll.remove_option": "",
+  // es_AR: Cambiar encuesta para permitir opciones múltiples
+  // es_ES: Modificar encuesta para permitir múltiples opciones
+  // es_MX: Modificar encuesta para permitir múltiples opciones
+  "compose_form.poll.switch_to_multiple": "",
+  // es_AR: Cambiar encuesta para permitir una sola opción
+  // es_ES: Modificar encuesta para permitir una única opción
+  // es_MX: Modificar encuesta para permitir una única opción
+  "compose_form.poll.switch_to_single": "",
+  // es_AR: Publicar
+  // es_ES: Publicar
+  // es_MX: Publicar
+  "compose_form.publish": "",
+  // es_AR: ¡{publish}!
+  // es_ES: {publish}!
+  // es_MX: ¡{publish}!
+  "compose_form.publish_loud": "",
+  // es_AR: Guardar cambios
+  // es_ES: Guardar cambios
+  // es_MX: Guardar cambios
+  "compose_form.save_changes": "",
+  // es_AR: Marcar medio como sensible
+  // es_ES: {count, plural, one {Marcar material como sensible} other {Marcar material como sensible}}
+  // es_MX: Marcar multimedia como sensible
+  "compose_form.sensitive.hide": "",
+  // es_AR: {count, plural, one {El medio está marcado como sensible} other {Los medios están marcados como sensibles}}
+  // es_ES: {count, plural, one {Material marcado como sensible} other {Material marcado como sensible}}
+  // es_MX: Material marcado como sensible
+  "compose_form.sensitive.marked": "",
+  // es_AR: El medio no está marcado como sensible
+  // es_ES: {count, plural, one {Material no marcado como sensible} other {Material no marcado como sensible}}
+  // es_MX: Material no marcado como sensible
+  "compose_form.sensitive.unmarked": "",
+  // es_AR: Quitar advertencia de contenido
+  // es_ES: Texto oculto tras la advertencia
+  // es_MX: Texto oculto tras la advertencia
+  "compose_form.spoiler.marked": "",
+  // es_AR: Agregar advertencia de contenido
+  // es_ES: Texto no oculto
+  // es_MX: Texto no oculto
+  "compose_form.spoiler.unmarked": "",
+  // es_AR: Escribí tu advertencia acá
+  // es_ES: Advertencia de contenido
+  // es_MX: Advertencia de contenido
+  "compose_form.spoiler_placeholder": "",
+  // es_AR: Cancelar
+  // es_ES: Cancelar
+  // es_MX: Cancelar
+  "confirmation_modal.cancel": "",
+  // es_AR: Bloquear y denunciar
+  // es_ES: Bloquear y Reportar
+  // es_MX: Bloquear y Reportar
+  "confirmations.block.block_and_report": "",
+  // es_AR: Bloquear
+  // es_ES: Bloquear
+  // es_MX: Bloquear
+  "confirmations.block.confirm": "",
+  // es_AR: ¿Estás seguro que querés bloquear a {name}?
+  // es_ES: ¿Estás seguro de que quieres bloquear a {name}?
+  // es_MX: ¿Estás seguro de que quieres bloquear a {name}?
+  "confirmations.block.message": "",
+  // es_AR: Retirar solicitud
+  // es_ES: Retirar solicitud
+  // es_MX: Retirar solicitud
+  "confirmations.cancel_follow_request.confirm": "",
+  // es_AR: ¿Estás seguro que querés retirar tu solicitud para seguir a {name}?
+  // es_ES: ¿Estás seguro de que deseas retirar tu solicitud para seguir a {name}?
+  // es_MX: ¿Estás seguro de que deseas retirar tu solicitud para seguir a {name}?
+  "confirmations.cancel_follow_request.message": "",
+  // es_AR: Eliminar
+  // es_ES: Eliminar
+  // es_MX: Eliminar
+  "confirmations.delete.confirm": "",
+  // es_AR: ¿Estás seguro que querés eliminar este mensaje?
+  // es_ES: ¿Estás seguro de que quieres borrar esta publicación?
+  // es_MX: ¿Estás seguro de que quieres borrar este toot?
+  "confirmations.delete.message": "",
+  // es_AR: Eliminar
+  // es_ES: Eliminar
+  // es_MX: Eliminar
+  "confirmations.delete_list.confirm": "",
+  // es_AR: ¿Estás seguro que querés eliminar permanentemente esta lista?
+  // es_ES: ¿Seguro que quieres borrar esta lista permanentemente?
+  // es_MX: ¿Seguro que quieres borrar esta lista permanentemente?
+  "confirmations.delete_list.message": "",
+  // es_AR: Descartar
+  // es_ES: Descartar
+  // es_MX: Descartar
+  "confirmations.discard_edit_media.confirm": "",
+  // es_AR: Tenés cambios sin guardar en la descripción de medios o en la vista previa, ¿querés descartarlos de todos modos?
+  // es_ES: Tienes cambios sin guardar en la descripción o vista previa del archivo audiovisual, ¿descartarlos de todos modos?
+  // es_MX: Tienes cambios sin guardar en la descripción o vista previa del archivo, ¿deseas descartarlos de cualquier manera?
+  "confirmations.discard_edit_media.message": "",
+  // es_AR: Bloquear dominio entero
+  // es_ES: Ocultar dominio entero
+  // es_MX: Ocultar dominio entero
+  "confirmations.domain_block.confirm": "",
+  // es_AR: ¿Estás completamente seguro que querés bloquear el {domain} entero? En la mayoría de los casos, unos cuantos bloqueos y silenciados puntuales son suficientes y preferibles. No vas a ver contenido de ese dominio en ninguna de tus líneas temporales o en tus notificaciones. Tus seguidores de ese dominio serán quitados.
+  // es_ES: ¿Seguro de que quieres bloquear al dominio {domain} entero? En general unos cuantos bloqueos y silenciados concretos es suficiente y preferible.
+  // es_MX: ¿Seguro de que quieres bloquear al dominio {domain} entero? En general unos cuantos bloqueos y silenciados concretos es suficiente y preferible.
+  "confirmations.domain_block.message": "",
+  // es_AR: Cerrar sesión
+  // es_ES: Cerrar sesión
+  // es_MX: Cerrar sesión
+  "confirmations.logout.confirm": "",
+  // es_AR: ¿Estás seguro que querés cerrar la sesión?
+  // es_ES: ¿Estás seguro de querer cerrar la sesión?
+  // es_MX: ¿Estás seguro de querer cerrar la sesión?
+  "confirmations.logout.message": "",
+  // es_AR: Silenciar
+  // es_ES: Silenciar
+  // es_MX: Silenciar
+  "confirmations.mute.confirm": "",
+  // es_AR: Se ocultarán los mensajes de esta cuenta y los mensajes de otras cuentas que mencionen a ésta, pero todavía esta cuenta podrá ver tus mensajes o seguirte.
+  // es_ES: Esto esconderá las publicaciones de ellos y en las que los has mencionado, pero les permitirá ver tus mensajes y seguirte.
+  // es_MX: Esto esconderá las publicaciones de ellos y en las que los has mencionado, pero les permitirá ver tus mensajes y seguirte.
+  "confirmations.mute.explanation": "",
+  // es_AR: ¿Estás seguro que querés silenciar a {name}?
+  // es_ES: ¿Estás seguro de que quieres silenciar a {name}?
+  // es_MX: ¿Estás seguro de que quieres silenciar a {name}?
+  "confirmations.mute.message": "",
+  // es_AR: Eliminar mensaje original y editarlo
+  // es_ES: Borrar y volver a borrador
+  // es_MX: Borrar y volver a borrador
+  "confirmations.redraft.confirm": "",
+  // es_AR: ¿Estás seguro que querés eliminar este mensaje y volver a editarlo? Se perderán las veces marcadas como favorito y sus adhesiones, y las respuestas al mensaje original quedarán huérfanas.
+  // es_ES: ¿Estás seguro de que quieres eliminar esta publicación y convertirla en borrador? Perderás todas las respuestas, retoots y favoritos asociados a él, y las respuestas a la publicación original quedarán huérfanas.
+  // es_MX: ¿Estás seguro de que quieres eliminar este toot y convertirlo en borrador? Perderás todas las respuestas, retoots y favoritos asociados a él, y las respuestas a la publicación original quedarán huérfanas.
+  "confirmations.redraft.message": "",
+  // es_AR: Responder
+  // es_ES: Responder
+  // es_MX: Responder
+  "confirmations.reply.confirm": "",
+  // es_AR: Responder ahora sobreescribirá el mensaje que estás redactando actualmente. ¿Estás seguro que querés seguir?
+  // es_ES: Responder sobrescribirá el mensaje que estás escribiendo. ¿Estás seguro de que deseas continuar?
+  // es_MX: Responder sobrescribirá el mensaje que estás escribiendo. ¿Estás seguro de que deseas continuar?
+  "confirmations.reply.message": "",
+  // es_AR: Dejar de seguir
+  // es_ES: Dejar de seguir
+  // es_MX: Dejar de seguir
+  "confirmations.unfollow.confirm": "",
+  // es_AR: ¿Estás seguro que querés dejar de seguir a {name}?
+  // es_ES: ¿Estás seguro de que quieres dejar de seguir a {name}?
+  // es_MX: ¿Estás seguro de que quieres dejar de seguir a {name}?
+  "confirmations.unfollow.message": "",
+  // es_AR: Eliminar conversación
+  // es_ES: Borrar conversación
+  // es_MX: Borrar conversación
+  "conversation.delete": "",
+  // es_AR: Marcar como leída
+  // es_ES: Marcar como leído
+  // es_MX: Marcar como leído
+  "conversation.mark_as_read": "",
+  // es_AR: Ver conversación
+  // es_ES: Ver conversación
+  // es_MX: Ver conversación
+  "conversation.open": "",
+  // es_AR: Con {names}
+  // es_ES: Con {names}
+  // es_MX: Con {names}
+  "conversation.with": "",
+  // es_AR: Copiado
+  // es_ES: Copiado
+  // es_MX: Copiado
+  "copypaste.copied": "",
+  // es_AR: Copiar
+  // es_ES: Copiar
+  // es_MX: Copiar
+  "copypaste.copy": "",
+  // es_AR: Desde fediverso conocido
+  // es_ES: Desde el fediverso conocido
+  // es_MX: Desde el fediverso conocido
+  "directory.federated": "",
+  // es_AR: Sólo de {domain}
+  // es_ES: Sólo de {domain}
+  // es_MX: Sólo de {domain}
+  "directory.local": "",
+  // es_AR: Recién llegados
+  // es_ES: Recién llegados
+  // es_MX: Recién llegados
+  "directory.new_arrivals": "",
+  // es_AR: Recientemente activos
+  // es_ES: Recientemente activo
+  // es_MX: Recientemente activo
+  "directory.recently_active": "",
+  // es_AR: Config. de la cuenta
+  // es_ES: Ajustes de la cuenta
+  // es_MX: Ajustes de la cuenta
+  "disabled_account_banner.account_settings": "",
+  // es_AR: Tu cuenta {disabledAccount} está actualmente deshabilitada.
+  // es_ES: Tu cuenta {disabledAccount} está actualmente deshabilitada.
+  // es_MX: Tu cuenta {disabledAccount} está actualmente deshabilitada.
+  "disabled_account_banner.text": "",
+  // es_AR: Estos son los mensajes públicos más recientes de cuentas alojadas en {domain}.
+  // es_ES: Estas son las publicaciones públicas más recientes de personas cuyas cuentas están alojadas en {domain}.
+  // es_MX: Estas son las publicaciones públicas más recientes de personas cuyas cuentas están alojadas en {domain}.
+  "dismissable_banner.community_timeline": "",
+  // es_AR: Descartar
+  // es_ES: Descartar
+  // es_MX: Descartar
+  "dismissable_banner.dismiss": "",
+  // es_AR: Estas noticias están siendo discutidas por personas en este y otros servidores de la red descentralizada ahora mismo.
+  // es_ES: Estas noticias están siendo discutidas por personas en este y otros servidores de la red descentralizada en este momento.
+  // es_MX: Estas noticias están siendo discutidas por personas en este y otros servidores de la red descentralizada en este momento.
+  "dismissable_banner.explore_links": "",
+  // es_AR: Estos mensajes de este y otros servidores en la red descentralizada están ganando tracción en este servidor ahora mismo.
+  // es_ES: Estas publicaciones de este y otros servidores en la red descentralizada están ganando popularidad en este servidor en este momento.
+  // es_MX: Estas publicaciones de este y otros servidores en la red descentralizada están ganando popularidad en este servidor en este momento.
+  "dismissable_banner.explore_statuses": "",
+  // es_AR: Estas etiquetas están ganando tracción entre la gente en este y otros servidores de la red descentralizada ahora mismo.
+  // es_ES: Estas tendencias están ganando popularidad entre la gente en este y otros servidores de la red descentralizada en este momento.
+  // es_MX: Estas tendencias están ganando popularidad entre la gente en este y otros servidores de la red descentralizada en este momento.
+  "dismissable_banner.explore_tags": "",
+  // es_AR: Estos son los mensajes públicos más recientes de personas en este y otros servidores de la red descentralizada que este servidor conoce.
+  // es_ES: Estas son las publicaciones públicas más recientes de personas en este y otros servidores de la red descentralizada que este servidor conoce.
+  // es_MX: Estas son las publicaciones públicas más recientes de personas en este y otros servidores de la red descentralizada que este servidor conoce.
+  "dismissable_banner.public_timeline": "",
+  // es_AR: Insertá este mensaje a tu sitio web copiando el código de abajo.
+  // es_ES: Añade esta publicación a tu sitio web con el siguiente código.
+  // es_MX: Añade este toot a tu sitio web con el siguiente código.
+  "embed.instructions": "",
+  // es_AR: Así es cómo se verá:
+  // es_ES: Así es como se verá:
+  // es_MX: Así es como se verá:
+  "embed.preview": "",
+  // es_AR: Actividad
+  // es_ES: Actividad
+  // es_MX: Actividad
+  "emoji_button.activity": "",
+  // es_AR: Limpiar
+  // es_ES: Limpiar
+  // es_MX: Limpiar
+  "emoji_button.clear": "",
+  // es_AR: Personalizado
+  // es_ES: Personalizado
+  // es_MX: Personalizado
+  "emoji_button.custom": "",
+  // es_AR: Banderas
+  // es_ES: Marcas
+  // es_MX: Marcas
+  "emoji_button.flags": "",
+  // es_AR: Comida y bebida
+  // es_ES: Comida y bebida
+  // es_MX: Comida y bebida
+  "emoji_button.food": "",
+  // es_AR: Insertar emoji
+  // es_ES: Insertar emoji
+  // es_MX: Insertar emoji
+  "emoji_button.label": "",
+  // es_AR: Naturaleza
+  // es_ES: Naturaleza
+  // es_MX: Naturaleza
+  "emoji_button.nature": "",
+  // es_AR: No se encontraron emojis coincidentes
+  // es_ES: No hay emojis!! ¯\\_(ツ)_/¯
+  // es_MX: No hay emojis!! ¯\\_(ツ)_/¯
+  "emoji_button.not_found": "",
+  // es_AR: Objetos
+  // es_ES: Objetos
+  // es_MX: Objetos
+  "emoji_button.objects": "",
+  // es_AR: Gente
+  // es_ES: Gente
+  // es_MX: Gente
+  "emoji_button.people": "",
+  // es_AR: Usados frecuentemente
+  // es_ES: Usados frecuentemente
+  // es_MX: Usados frecuentemente
+  "emoji_button.recent": "",
+  // es_AR: Buscar...
+  // es_ES: Buscar...
+  // es_MX: Buscar…
+  "emoji_button.search": "",
+  // es_AR: Resultados de búsqueda
+  // es_ES: Resultados de búsqueda
+  // es_MX: Resultados de búsqueda
+  "emoji_button.search_results": "",
+  // es_AR: Símbolos
+  // es_ES: Símbolos
+  // es_MX: Símbolos
+  "emoji_button.symbols": "",
+  // es_AR: Viajes y lugares
+  // es_ES: Viajes y lugares
+  // es_MX: Viajes y lugares
+  "emoji_button.travel": "",
+  // es_AR: Cuenta suspendida
+  // es_ES: Cuenta suspendida
+  // es_MX: Cuenta suspendida
+  "empty_column.account_suspended": "",
+  // es_AR: ¡No hay mensajes acá!
+  // es_ES: ¡No hay publicaciones aquí!
+  // es_MX: ¡No hay toots aquí!
+  "empty_column.account_timeline": "",
+  // es_AR: Perfil no disponible
+  // es_ES: Perfil no disponible
+  // es_MX: Perfil no disponible
+  "empty_column.account_unavailable": "",
+  // es_AR: Todavía no bloqueaste a ningún usuario.
+  // es_ES: Aún no has bloqueado a ningún usuario.
+  // es_MX: Aún no has bloqueado a ningún usuario.
+  "empty_column.blocks": "",
+  // es_AR: Todavía no tenés mensajes guardados en \"Marcadores\". Cuando guardés uno en \"Marcadores\", se mostrará acá.
+  // es_ES: Aún no tienes ninguna publicación guardada como marcador. Cuando guardes una, se mostrará aquí.
+  // es_MX: Aún no tienes ningún toot guardado como marcador. Cuando guardes uno, se mostrará aquí.
+  "empty_column.bookmarked_statuses": "",
+  // es_AR: La línea temporal local está vacía. ¡Escribí algo en modo público para que se empiece a correr la bola!
+  // es_ES: La línea de tiempo local está vacía. ¡Escribe algo para empezar la fiesta!
+  // es_MX: La línea de tiempo local está vacía. ¡Escribe algo para empezar la fiesta!
+  "empty_column.community": "",
+  // es_AR: Todavía no tenés ningún mensaje directo. Cuando enviés o recibás uno, se mostrará acá.
+  // es_ES: Aún no tienes ningún mensaje directo. Cuando envíes o recibas uno, se mostrará aquí.
+  // es_MX: Aún no tienes ningún mensaje directo. Cuando envíes o recibas uno, se mostrará aquí.
+  "empty_column.direct": "",
+  // es_AR: Todavía no hay dominios bloqueados.
+  // es_ES: Todavía no hay dominios ocultos.
+  // es_MX: Todavía no hay dominios ocultos.
+  "empty_column.domain_blocks": "",
+  // es_AR: No hay nada en tendencia ahora mismo. ¡Volvé a revisar más tarde!
+  // es_ES: Nada está en tendencia en este momento. ¡Revisa más tarde!
+  // es_MX: Nada es tendencia en este momento. ¡Revisa más tarde!
+  "empty_column.explore_statuses": "",
+  // es_AR: Todavía no tenés mensajes favoritos. Cuando marqués uno como favorito, se mostrará acá.
+  // es_ES: Aún no tienes publicaciones favoritas. Cuando marques una como favorita, aparecerá aquí.
+  // es_MX: Aún no tienes toots preferidos. Cuando marques uno como favorito, aparecerá aquí.
+  "empty_column.favourited_statuses": "",
+  // es_AR: Todavía nadie marcó este mensaje como favorito. Cuando alguien lo haga, se mostrará acá.
+  // es_ES: Nadie ha marcado esta publicación como favorita. Cuando alguien lo haga, aparecerá aquí.
+  // es_MX: Nadie ha marcado este toot como preferido. Cuando alguien lo haga, aparecerá aquí.
+  "empty_column.favourites": "",
+  // es_AR: Parece que no se pudieron generar sugerencias para vos. Podés intentar buscar gente que conozcas o explorar las tendencias de las etiquetas.
+  // es_ES: Parece que no se ha podido generar ninguna sugerencia para ti. Puedes probar a buscar a gente que quizá conozcas o explorar los hashtags que están en tendencia.
+  // es_MX: Parece que no se ha podido generar ninguna sugerencia para ti. Puedes probar a buscar a gente que quizá conozcas o explorar los hashtags que están en tendencia.
+  "empty_column.follow_recommendations": "",
+  // es_AR: Todavía no tenés ninguna solicitud de seguimiento. Cuando recibás una, se mostrará acá.
+  // es_ES: No tienes ninguna petición de seguidor. Cuando recibas una, se mostrará aquí.
+  // es_MX: No tienes ninguna petición de seguidor. Cuando recibas una, se mostrará aquí.
+  "empty_column.follow_requests": "",
+  // es_AR: Todavía no hay nada con esta etiqueta.
+  // es_ES: No hay nada en este hashtag aún.
+  // es_MX: No hay nada en este hashtag aún.
+  "empty_column.hashtag": "",
+  // es_AR: ¡Tu línea temporal principal está vacía! Seguí a más cuentas para llenarla. {suggestions}
+  // es_ES: ¡Tu línea de tiempo está vacía! Sigue a más personas para rellenarla. {suggestions}
+  // es_MX: No estás siguiendo a nadie aún. Visita {public} o haz búsquedas para empezar y conocer gente nueva.
+  "empty_column.home": "",
+  // es_AR: Mirá algunas sugerencias
+  // es_ES: Ver algunas sugerencias
+  // es_MX: Ver algunas sugerencias
+  "empty_column.home.suggestions": "",
+  // es_AR: Todavía no hay nada en esta lista. Cuando miembros de esta lista envíen nuevos mensaje, se mostrarán acá.
+  // es_ES: No hay nada en esta lista aún. Cuando miembros de esta lista publiquen nuevos estatus, estos aparecerán qui.
+  // es_MX: No hay nada en esta lista aún. Cuando miembros de esta lista publiquen nuevos estatus, estos aparecerán qui.
+  "empty_column.list": "",
+  // es_AR: Todavía no tenés ninguna lista. Cuando creés una, se mostrará acá.
+  // es_ES: No tienes ninguna lista. cuando crees una, se mostrará aquí.
+  // es_MX: No tienes ninguna lista. cuando crees una, se mostrará aquí.
+  "empty_column.lists": "",
+  // es_AR: Todavía no silenciaste a ningún usuario.
+  // es_ES: Aún no has silenciado a ningún usuario.
+  // es_MX: Aún no has silenciado a ningún usuario.
+  "empty_column.mutes": "",
+  // es_AR: Todavía no tenés ninguna notificación. Cuando otras cuentas interactúen con vos, vas a ver la notificación acá.
+  // es_ES: No tienes ninguna notificación aún. Interactúa con otros para empezar una conversación.
+  // es_MX: No tienes ninguna notificación aún. Interactúa con otros para empezar una conversación.
+  "empty_column.notifications": "",
+  // es_AR: ¡Naranja! Escribí algo públicamente, o seguí usuarios manualmente de otros servidores para ir llenando esta línea temporal
+  // es_ES: ¡No hay nada aquí! Escribe algo públicamente, o sigue usuarios de otras instancias manualmente para llenarlo
+  // es_MX: ¡No hay nada aquí! Escribe algo públicamente, o sigue usuarios de otras instancias manualmente para llenarlo
+  "empty_column.public": "",
+  // es_AR: Debido a un error en nuestro código o a un problema de compatibilidad con el navegador web, esta página no se pudo mostrar correctamente.
+  // es_ES: Debido a un error en nuestro código o a un problema de compatibilidad con el navegador, esta página no se ha podido mostrar correctamente.
+  // es_MX: Debido a un error en nuestro código o a un problema de compatibilidad con el navegador, esta página no se ha podido mostrar correctamente.
+  "error.unexpected_crash.explanation": "",
+  // es_AR: No se pudo mostrar correctamente esta página. Este error probablemente es causado por un complemento del navegador web o por herramientas de traducción automática.
+  // es_ES: No se pudo mostrar correctamente esta página. Este error probablemente fue causado por un complemento del navegador web o por herramientas de traducción automática.
+  // es_MX: No se pudo mostrar correctamente esta página. Este error probablemente fue causado por un complemento del navegador web o por herramientas de traducción automática.
+  "error.unexpected_crash.explanation_addons": "",
+  // es_AR: Intentá recargar la página. Si eso no ayuda, podés usar Mastodon a través de un navegador web diferente o aplicación nativa.
+  // es_ES: Intenta actualizar la página. Si eso no ayuda, es posible que puedas usar Mastodon a través de otro navegador o aplicación nativa.
+  // es_MX: Intenta actualizar la página. Si eso no ayuda, es posible que puedas usar Mastodon a través de otro navegador o aplicación nativa.
+  "error.unexpected_crash.next_steps": "",
+  // es_AR: Intentá deshabilitarlos y recargá la página. Si eso no ayuda, podés usar Mastodon a través de un navegador web diferente o aplicación nativa.
+  // es_ES: Intenta deshabilitarlos y recarga la página. Si eso no ayuda, podrías usar Mastodon a través de un navegador web diferente o aplicación nativa.
+  // es_MX: Intenta deshabilitarlos y recarga la página. Si eso no ayuda, podrías usar Mastodon a través de un navegador web diferente o aplicación nativa.
+  "error.unexpected_crash.next_steps_addons": "",
+  // es_AR: Copiar stacktrace al portapapeles
+  // es_ES: Copiar el seguimiento de pila en el portapapeles
+  // es_MX: Copiar el seguimiento de pila en el portapapeles
+  "errors.unexpected_crash.copy_stacktrace": "",
+  // es_AR: Informar problema
+  // es_ES: Informar de un problema/error
+  // es_MX: Informar de un problema/error
+  "errors.unexpected_crash.report_issue": "",
+  // es_AR: Resultados de búsqueda
+  // es_ES: Resultados de búsqueda
+  // es_MX: Resultados de búsqueda
+  "explore.search_results": "",
+  // es_AR: Para vos
+  // es_ES: Para ti
+  // es_MX: Para ti
+  "explore.suggested_follows": "",
+  // es_AR: Explorá
+  // es_ES: Explorar
+  // es_MX: Descubrir
+  "explore.title": "",
+  // es_AR: Noticias
+  // es_ES: Noticias
+  // es_MX: Noticias
+  "explore.trending_links": "",
+  // es_AR: Mensajes
+  // es_ES: Publicaciones
+  // es_MX: Publicaciones
+  "explore.trending_statuses": "",
+  // es_AR: Etiquetas
+  // es_ES: Etiquetas
+  // es_MX: Hashtags
+  "explore.trending_tags": "",
+  // es_AR: Esta categoría de filtro no se aplica al contexto en el que accediste a este mensaje. Si querés que el mensaje sea filtrado también en este contexto, vas a tener que editar el filtro.
+  // es_ES: Esta categoría de filtro no se aplica al contexto en el que ha accedido a esta publlicación. Si quieres que la publicación sea filtrada también en este contexto, tendrás que editar el filtro.
+  // es_MX: Esta categoría de filtro no se aplica al contexto en el que ha accedido a esta publlicación. Si quieres que la publicación sea filtrada también en este contexto, tendrás que editar el filtro.
+  "filter_modal.added.context_mismatch_explanation": "",
+  // es_AR: ¡El contexto no coincide!
+  // es_ES: ¡El contexto no coincide!
+  // es_MX: ¡El contexto no coincide!
+  "filter_modal.added.context_mismatch_title": "",
+  // es_AR: Esta categoría de filtro caducó; vas a necesitar cambiar la fecha de caducidad para que se aplique.
+  // es_ES: Esta categoría de filtro ha caducado, necesitará cambiar la fecha de caducidad para que se aplique.
+  // es_MX: Esta categoría de filtro ha caducado, necesitará cambiar la fecha de caducidad para que se aplique.
+  "filter_modal.added.expired_explanation": "",
+  // es_AR: ¡Filtro caducado!
+  // es_ES: ¡Filtro caducado!
+  // es_MX: ¡Filtro caducado!
+  "filter_modal.added.expired_title": "",
+  // es_AR: Para revisar y configurar esta categoría de filtros, visitá a la {settings_link}.
+  // es_ES: Para revisar y configurar esta categoría de filtros, vaya a {settings_link}.
+  // es_MX: Para revisar y configurar esta categoría de filtros, vaya a {settings_link}.
+  "filter_modal.added.review_and_configure": "",
+  // es_AR: Configuración de filtro
+  // es_ES: Ajustes de filtro
+  // es_MX: Ajustes de filtro
+  "filter_modal.added.review_and_configure_title": "",
+  // es_AR: página de configuración
+  // es_ES: página de ajustes
+  // es_MX: página de ajustes
+  "filter_modal.added.settings_link": "",
+  // es_AR: Este mensaje fue agregado a la siguiente categoría de filtros: {title}.
+  // es_ES: Esta publicación ha sido añadida a la siguiente categoría de filtros: {title}.
+  // es_MX: Esta publicación ha sido añadida a la siguiente categoría de filtros: {title}.
+  "filter_modal.added.short_explanation": "",
+  // es_AR: ¡Filtro agregado!
+  // es_ES: ¡Filtro añadido!
+  // es_MX: ¡Filtro añadido!
+  "filter_modal.added.title": "",
+  // es_AR: no aplica a este contexto
+  // es_ES: no se aplica a este contexto
+  // es_MX: no se aplica a este contexto
+  "filter_modal.select_filter.context_mismatch": "",
+  // es_AR: expirado
+  // es_ES: expirado
+  // es_MX: expirado
+  "filter_modal.select_filter.expired": "",
+  // es_AR: Nueva categoría: {name}
+  // es_ES: Nueva categoría: {name}
+  // es_MX: Nueva categoría: {name}
+  "filter_modal.select_filter.prompt_new": "",
+  // es_AR: Buscar o crear
+  // es_ES: Buscar o crear
+  // es_MX: Buscar o crear
+  "filter_modal.select_filter.search": "",
+  // es_AR: Usar una categoría existente o crear una nueva
+  // es_ES: Usar una categoría existente o crear una nueva
+  // es_MX: Usar una categoría existente o crear una nueva
+  "filter_modal.select_filter.subtitle": "",
+  // es_AR: Filtrar este mensaje
+  // es_ES: Filtrar esta publicación
+  // es_MX: Filtrar esta publicación
+  "filter_modal.select_filter.title": "",
+  // es_AR: Filtrar un mensaje
+  // es_ES: Filtrar una publicación
+  // es_MX: Filtrar una publicación
+  "filter_modal.title.status": "",
+  // es_AR: Listo
+  // es_ES: Hecho
+  // es_MX: Hecho
+  "follow_recommendations.done": "",
+  // es_AR: ¡Seguí cuentas cuyos mensajes te gustaría ver! Acá tenés algunas sugerencias.
+  // es_ES: ¡Sigue a gente que publique cosas que te gusten! Aquí tienes algunas sugerencias.
+  // es_MX: ¡Sigue a gente que publique cosas que te gusten! Aquí tienes algunas sugerencias.
+  "follow_recommendations.heading": "",
+  // es_AR: Los mensajes de las cuentas que seguís aparecerán en orden cronológico en la columna \"Inicio\". No tengás miedo de meter la pata, ¡podés dejar de seguir cuentas fácilmente en cualquier momento!
+  // es_ES: Las publicaciones de la gente a la que sigas aparecerán ordenadas cronológicamente en Inicio. No tengas miedo de cometer errores, ¡puedes dejarles de seguir en cualquier momento con la misma facilidad!
+  // es_MX: Las publicaciones de la gente a la que sigas aparecerán ordenadas cronológicamente en Inicio. No tengas miedo de cometer errores, ¡puedes dejarles de seguir en cualquier momento con la misma facilidad!
+  "follow_recommendations.lead": "",
+  // es_AR: Autorizar
+  // es_ES: Autorizar
+  // es_MX: Autorizar
+  "follow_request.authorize": "",
+  // es_AR: Rechazar
+  // es_ES: Rechazar
+  // es_MX: Rechazar
+  "follow_request.reject": "",
+  // es_AR: A pesar de que tu cuenta no es privada, el equipo de {domain} pensó que podrías querer revisar manualmente las solicitudes de seguimiento de estas cuentas.
+  // es_ES: A pesar de que tu cuenta no es privada, el personal de {domain} ha pensado que quizás deberías revisar manualmente las solicitudes de seguimiento de estas cuentas.
+  // es_MX: A pesar de que tu cuenta no es privada, el personal de {domain} ha pensado que quizás deberías revisar manualmente las solicitudes de seguimiento de estas cuentas.
+  "follow_requests.unlocked_explanation": "",
+  // es_AR: Información
+  // es_ES: Acerca de
+  // es_MX: Acerca de
+  "footer.about": "",
+  // es_AR: Directorio de perfiles
+  // es_ES: Directorio de perfiles
+  // es_MX: Directorio de perfiles
+  "footer.directory": "",
+  // es_AR: Conseguí la aplicación
+  // es_ES: Obtener la aplicación
+  // es_MX: Obtener la aplicación
+  "footer.get_app": "",
+  // es_AR: Invitá a gente
+  // es_ES: Invitar gente
+  // es_MX: Invitar gente
+  "footer.invite": "",
+  // es_AR: Atajos de teclado
+  // es_ES: Atajos de teclado
+  // es_MX: Atajos de teclado
+  "footer.keyboard_shortcuts": "",
+  // es_AR: Política de privacidad
+  // es_ES: Política de privacidad
+  // es_MX: Política de privacidad
+  "footer.privacy_policy": "",
+  // es_AR: Ver código fuente
+  // es_ES: Ver código fuente
+  // es_MX: Ver código fuente
+  "footer.source_code": "",
+  // es_AR: Guardado
+  // es_ES: Guardado
+  // es_MX: Guardado
+  "generic.saved": "",
+  // es_AR: Inicio de Mastodon
+  // es_ES: Primeros pasos
+  // es_MX: Primeros pasos
+  "getting_started.heading": "",
+  // es_AR: y {additional}
+  // es_ES: y {additional}
+  // es_MX: y {additional}
+  "hashtag.column_header.tag_mode.all": "",
+  // es_AR: o {additional}
+  // es_ES: o {additional}
+  // es_MX: o {additional}
+  "hashtag.column_header.tag_mode.any": "",
+  // es_AR: sin {additional}
+  // es_ES: sin {additional}
+  // es_MX: sin {additional}
+  "hashtag.column_header.tag_mode.none": "",
+  // es_AR: No se encontraron sugerencias
+  // es_ES: No se encontraron sugerencias
+  // es_MX: No se encontraron sugerencias
+  "hashtag.column_settings.select.no_options_message": "",
+  // es_AR: Introducí etiquetas…
+  // es_ES: Introduzca hashtags…
+  // es_MX: Introduzca hashtags…
+  "hashtag.column_settings.select.placeholder": "",
+  // es_AR: Todas estas
+  // es_ES: Cualquiera de estos
+  // es_MX: Cualquiera de estos
+  "hashtag.column_settings.tag_mode.all": "",
+  // es_AR: Cualquiera de estas
+  // es_ES: Cualquiera de estos
+  // es_MX: Cualquiera de estos
+  "hashtag.column_settings.tag_mode.any": "",
+  // es_AR: Ninguna de estas
+  // es_ES: Ninguno de estos
+  // es_MX: Ninguno de estos
+  "hashtag.column_settings.tag_mode.none": "",
+  // es_AR: Incluir etiquetas adicionales para esta columna
+  // es_ES: Include additional tags in this column
+  // es_MX: Include additional tags in this column
+  "hashtag.column_settings.tag_toggle": "",
+  // es_AR: Seguir etiqueta
+  // es_ES: Seguir etiqueta
+  // es_MX: Seguir etiqueta
+  "hashtag.follow": "",
+  // es_AR: Dejar de seguir etiqueta
+  // es_ES: Dejar de seguir etiqueta
+  // es_MX: Dejar de seguir etiqueta
+  "hashtag.unfollow": "",
+  // es_AR: Básico
+  // es_ES: Básico
+  // es_MX: Básico
+  "home.column_settings.basic": "",
+  // es_AR: Mostrar adhesiones
+  // es_ES: Mostrar retoots
+  // es_MX: Mostrar retoots
+  "home.column_settings.show_reblogs": "",
+  // es_AR: Mostrar respuestas
+  // es_ES: Mostrar respuestas
+  // es_MX: Mostrar respuestas
+  "home.column_settings.show_replies": "",
+  // es_AR: Ocultar anuncios
+  // es_ES: Ocultar anuncios
+  // es_MX: Ocultar anuncios
+  "home.hide_announcements": "",
+  // es_AR: Mostrar anuncios
+  // es_ES: Mostrar anuncios
+  // es_MX: Mostrar anuncios
+  "home.show_announcements": "",
+  // es_AR: Con una cuenta en Mastodon, podés marcar este mensaje como favorito para que el autor sepa que lo apreciás y lo guardás para más adelante.
+  // es_ES: Con una cuenta en Mastodon, puedes marcar como favorita esta publicación para que el autor sepa que te gusta y guardarla así para más adelante.
+  // es_MX: Con una cuenta en Mastodon, puedes marcar como favorita esta publicación para que el autor sepa que te gusta y guardarla así para más adelante.
+  "interaction_modal.description.favourite": "",
+  // es_AR: Con una cuenta en Mastodon, podés seguir a {name} para recibir sus mensajes en tu línea temporal principal.
+  // es_ES: Con una cuenta en Mastodon, puedes seguir {name} para recibir sus publicaciones en tu línea temporal de inicio.
+  // es_MX: Con una cuenta en Mastodon, puedes seguir {name} para recibir sus publicaciones en tu línea temporal de inicio.
+  "interaction_modal.description.follow": "",
+  // es_AR: Con una cuenta en Mastodon, podés adherir a este mensaje para compartirlo con tus propios seguidores.
+  // es_ES: Con una cuenta en Mastodon, puedes impulsar esta publicación para compartirla con tus propios seguidores.
+  // es_MX: Con una cuenta en Mastodon, puedes impulsar esta publicación para compartirla con tus propios seguidores.
+  "interaction_modal.description.reblog": "",
+  // es_AR: Con una cuenta en Mastodon, podés responder a este mensaje.
+  // es_ES: Con una cuenta en Mastodon, puedes responder a esta publicación.
+  // es_MX: Con una cuenta en Mastodon, puedes responder a esta publicación.
+  "interaction_modal.description.reply": "",
+  // es_AR: En un servidor diferente
+  // es_ES: En un servidor diferente
+  // es_MX: En un servidor diferente
+  "interaction_modal.on_another_server": "",
+  // es_AR: En este servidor
+  // es_ES: En este servidor
+  // es_MX: En este servidor
+  "interaction_modal.on_this_server": "",
+  // es_AR: Copiá y pegá esta dirección web en la barra de búsqueda de tu aplicación favorita de Mastodon, o en la interface web de tu servidor de Mastodon.
+  // es_ES: Copia y pega esta URL en la barra de búsqueda de tu aplicación Mastodon favorita o la interfaz web de tu servidor Mastodon.
+  // es_MX: Copia y pega esta URL en la barra de búsqueda de tu aplicación Mastodon favorita o la interfaz web de tu servidor Mastodon.
+  "interaction_modal.other_server_instructions": "",
+  // es_AR: Ya que Mastodon es descentralizado, podés usar tu cuenta existente alojada por otro servidor Mastodon (u otra plataforma compatible, si no tenés una cuenta en ésta).
+  // es_ES: Ya que Mastodon es descentralizado, puedes usar tu cuenta existente alojada en otro servidor Mastodon o plataforma compatible si no tienes una cuenta en este servidor.
+  // es_MX: Ya que Mastodon es descentralizado, puedes usar tu cuenta existente alojada en otro servidor Mastodon o plataforma compatible si no tienes una cuenta en este servidor.
+  "interaction_modal.preamble": "",
+  // es_AR: Marcar como favorito el mensaje de {name}
+  // es_ES: Marcar como favorita la publicación de {name}
+  // es_MX: Marcar como favorita la publicación de {name}
+  "interaction_modal.title.favourite": "",
+  // es_AR: Seguir a {name}
+  // es_ES: Seguir a {name}
+  // es_MX: Seguir a {name}
+  "interaction_modal.title.follow": "",
+  // es_AR: Adherir al mensaje de {name}
+  // es_ES: Impulsar la publicación de {name}
+  // es_MX: Impulsar la publicación de {name}
+  "interaction_modal.title.reblog": "",
+  // es_AR: Responder al mensaje de {name}
+  // es_ES: Responder a la publicación de {name}
+  // es_MX: Responder a la publicación de {name}
+  "interaction_modal.title.reply": "",
+  // es_AR: {number, plural, one {# día} other {# días}}
+  // es_ES: {number, plural, one {# día} other {# días}}
+  // es_MX: {number, plural, one {# día} other {# días}}
+  "intervals.full.days": "",
+  // es_AR: {number, plural, one {# hora} other {# horas}}
+  // es_ES: {number, plural, one {# hora} other {# horas}}
+  // es_MX: {number, plural, one {# hora} other {# horas}}
+  "intervals.full.hours": "",
+  // es_AR: {number, plural, one {# minuto} other {# minutos}}
+  // es_ES: {number, plural, one {# minuto} other {# minutos}}
+  // es_MX: {number, plural, one {# minuto} other {# minutos}}
+  "intervals.full.minutes": "",
+  // es_AR: Volver
+  // es_ES: volver atrás
+  // es_MX: volver atrás
+  "keyboard_shortcuts.back": "",
+  // es_AR: Abrir lista de usuarios bloqueados
+  // es_ES: abrir una lista de usuarios bloqueados
+  // es_MX: abrir una lista de usuarios bloqueados
+  "keyboard_shortcuts.blocked": "",
+  // es_AR: Adherir al mensaje
+  // es_ES: Retootear
+  // es_MX: retootear
+  "keyboard_shortcuts.boost": "",
+  // es_AR: Enfocar columna
+  // es_ES: enfocar un estado en una de las columnas
+  // es_MX: enfocar un estado en una de las columnas
+  "keyboard_shortcuts.column": "",
+  // es_AR: Enfocar el área de texto de redacción
+  // es_ES: enfocar el área de texto de redacción
+  // es_MX: enfocar el área de texto de redacción
+  "keyboard_shortcuts.compose": "",
+  // es_AR: Descripción
+  // es_ES: Descripción
+  // es_MX: Descripción
+  "keyboard_shortcuts.description": "",
+  // es_AR: para abrir columna de mensajes directos
+  // es_ES: para abrir la columna de mensajes directos
+  // es_MX: para abrir la columna de mensajes directos
+  "keyboard_shortcuts.direct": "",
+  // es_AR: Bajar en la lista
+  // es_ES: mover hacia abajo en la lista
+  // es_MX: mover hacia abajo en la lista
+  "keyboard_shortcuts.down": "",
+  // es_AR: Abrir mensaje
+  // es_ES: abrir estado
+  // es_MX: abrir estado
+  "keyboard_shortcuts.enter": "",
+  // es_AR: Marcar mensaje como favorito
+  // es_ES: añadir a favoritos
+  // es_MX: añadir a favoritos
+  "keyboard_shortcuts.favourite": "",
+  // es_AR: Abrir lista de favoritos
+  // es_ES: abrir la lista de favoritos
+  // es_MX: abrir la lista de favoritos
+  "keyboard_shortcuts.favourites": "",
+  // es_AR: Abrir línea temporal federada
+  // es_ES: Abrir la línea de tiempo federada
+  // es_MX: abrir el timeline federado
+  "keyboard_shortcuts.federated": "",
+  // es_AR: Atajos de teclado
+  // es_ES: Keyboard Shortcuts
+  // es_MX: Keyboard Shortcuts
+  "keyboard_shortcuts.heading": "",
+  // es_AR: Abrir línea temporal principal
+  // es_ES: Abrir línea de tiempo
+  // es_MX: abrir el timeline propio
+  "keyboard_shortcuts.home": "",
+  // es_AR: Atajo
+  // es_ES: Tecla caliente
+  // es_MX: Tecla caliente
+  "keyboard_shortcuts.hotkey": "",
+  // es_AR: Mostrar este texto
+  // es_ES: para mostrar esta leyenda
+  // es_MX: para mostrar esta leyenda
+  "keyboard_shortcuts.legend": "",
+  // es_AR: Abrirlínea temporal local
+  // es_ES: Abrir línea de tiempo local
+  // es_MX: abrir el timeline local
+  "keyboard_shortcuts.local": "",
+  // es_AR: Mencionar al autor
+  // es_ES: para mencionar al autor
+  // es_MX: para mencionar al autor
+  "keyboard_shortcuts.mention": "",
+  // es_AR: Abrir lista de usuarios silenciados
+  // es_ES: abrir la lista de usuarios silenciados
+  // es_MX: abrir la lista de usuarios silenciados
+  "keyboard_shortcuts.muted": "",
+  // es_AR: Abrir tu perfil
+  // es_ES: abrir tu perfil
+  // es_MX: abrir tu perfil
+  "keyboard_shortcuts.my_profile": "",
+  // es_AR: Abrir columna de notificaciones
+  // es_ES: abrir la columna de notificaciones
+  // es_MX: abrir la columna de notificaciones
+  "keyboard_shortcuts.notifications": "",
+  // es_AR: Abrir archivos de medios
+  // es_ES: para abrir archivos multimedia
+  // es_MX: para abrir archivos multimedia
+  "keyboard_shortcuts.open_media": "",
+  // es_AR: Abrir lista de mensajes fijados
+  // es_ES: Abrir la lista de publicaciones destacadas
+  // es_MX: abrir la lista de toots destacados
+  "keyboard_shortcuts.pinned": "",
+  // es_AR: Abrir perfil del autor
+  // es_ES: abrir el perfil del autor
+  // es_MX: abrir el perfil del autor
+  "keyboard_shortcuts.profile": "",
+  // es_AR: Responder al mensaje
+  // es_ES: para responder
+  // es_MX: para responder
+  "keyboard_shortcuts.reply": "",
+  // es_AR: Abrir lista de solicitudes de seguimiento
+  // es_ES: abrir la lista de peticiones de seguidores
+  // es_MX: abrir la lista de peticiones de seguidores
+  "keyboard_shortcuts.requests": "",
+  // es_AR: Enfocar barra de búsqueda
+  // es_ES: para poner el foco en la búsqueda
+  // es_MX: para poner el foco en la búsqueda
+  "keyboard_shortcuts.search": "",
+  // es_AR: Mostrar/ocultar campo de advertencia de contenido (\"CW\")
+  // es_ES: para mostrar/ocultar el campo CW
+  // es_MX: para mostrar/ocultar el campo CW
+  "keyboard_shortcuts.spoilers": "",
+  // es_AR: Abrir columna \"Introducción\"
+  // es_ES: abrir la columna \"comenzar\"
+  // es_MX: abrir la columna \"comenzar\"
+  "keyboard_shortcuts.start": "",
+  // es_AR: Mostrar/ocultar texto detrás de la advertencia de contenido (\"CW\")
+  // es_ES: mostrar/ocultar texto tras aviso de contenido (CW)
+  // es_MX: mostrar/ocultar texto tras aviso de contenido (CW)
+  "keyboard_shortcuts.toggle_hidden": "",
+  // es_AR: Mostrar/ocultar medios
+  // es_ES: mostrar/ocultar medios
+  // es_MX: mostrar/ocultar medios
+  "keyboard_shortcuts.toggle_sensitivity": "",
+  // es_AR: Comenzar un mensaje nuevo
+  // es_ES: Comienza una nueva publicación
+  // es_MX: para comenzar un nuevo toot
+  "keyboard_shortcuts.toot": "",
+  // es_AR: Quitar el foco del área de texto de redacción o de búsqueda
+  // es_ES: para retirar el foco de la caja de redacción/búsqueda
+  // es_MX: para retirar el foco de la caja de redacción/búsqueda
+  "keyboard_shortcuts.unfocus": "",
+  // es_AR: Subir en la lista
+  // es_ES: para ir hacia arriba en la lista
+  // es_MX: para ir hacia arriba en la lista
+  "keyboard_shortcuts.up": "",
+  // es_AR: Cerrar
+  // es_ES: Cerrar
+  // es_MX: Cerrar
+  "lightbox.close": "",
+  // es_AR: Comprimir cuadro de vista de imagen
+  // es_ES: Comprimir cuadro de visualización de imagen
+  // es_MX: Comprimir cuadro de visualización de imagen
+  "lightbox.compress": "",
+  // es_AR: Expandir cuadro de vista de imagen
+  // es_ES: Expandir cuadro de visualización de imagen
+  // es_MX: Expandir cuadro de visualización de imagen
+  "lightbox.expand": "",
+  // es_AR: Siguiente
+  // es_ES: Siguiente
+  // es_MX: Siguiente
+  "lightbox.next": "",
+  // es_AR: Anterior
+  // es_ES: Anterior
+  // es_MX: Anterior
+  "lightbox.previous": "",
+  // es_AR: Mostrar perfil de todos modos
+  // es_ES: Mostrar perfil de todos modos
+  // es_MX: Mostrar perfil de todos modos
+  "limited_account_hint.action": "",
+  // es_AR: Este perfil fue ocultado por los moderadores de {domain}.
+  // es_ES: Este perfil ha sido ocultado por los moderadores de {domain}.
+  // es_MX: Este perfil ha sido ocultado por los moderadores de {domain}.
+  "limited_account_hint.title": "",
+  // es_AR: Agregar a lista
+  // es_ES: Añadir a lista
+  // es_MX: Añadir a lista
+  "lists.account.add": "",
+  // es_AR: Quitar de lista
+  // es_ES: Quitar de lista
+  // es_MX: Quitar de lista
+  "lists.account.remove": "",
+  // es_AR: Eliminar lista
+  // es_ES: Borrar lista
+  // es_MX: Borrar lista
+  "lists.delete": "",
+  // es_AR: Editar lista
+  // es_ES: Editar lista
+  // es_MX: Editar lista
+  "lists.edit": "",
+  // es_AR: Cambiar título
+  // es_ES: Cambiar título
+  // es_MX: Cambiar título
+  "lists.edit.submit": "",
+  // es_AR: Agregar lista
+  // es_ES: Añadir lista
+  // es_MX: Añadir lista
+  "lists.new.create": "",
+  // es_AR: Título de nueva lista
+  // es_ES: Título de la nueva lista
+  // es_MX: Título de la nueva lista
+  "lists.new.title_placeholder": "",
+  // es_AR: Cualquier cuenta seguida
+  // es_ES: Cualquier usuario seguido
+  // es_MX: Cualquier usuario seguido
+  "lists.replies_policy.followed": "",
+  // es_AR: Miembros de la lista
+  // es_ES: Miembros de la lista
+  // es_MX: Miembros de la lista
+  "lists.replies_policy.list": "",
+  // es_AR: Nadie
+  // es_ES: Nadie
+  // es_MX: Nadie
+  "lists.replies_policy.none": "",
+  // es_AR: Mostrar respuestas a:
+  // es_ES: Mostrar respuestas a:
+  // es_MX: Mostrar respuestas a:
+  "lists.replies_policy.title": "",
+  // es_AR: Buscar entre la gente que seguís
+  // es_ES: Buscar entre la gente a la que sigues
+  // es_MX: Buscar entre la gente a la que sigues
+  "lists.search": "",
+  // es_AR: Tus listas
+  // es_ES: Tus listas
+  // es_MX: Tus listas
+  "lists.subheading": "",
+  // es_AR: {count, plural, one {# elemento nuevo} other {# elementos nuevos}}
+  // es_ES: {count, plural, one {# nuevo elemento} other {# nuevos elementos}}
+  // es_MX: {count, plural, one {# nuevo elemento} other {# nuevos elementos}}
+  "load_pending": "",
+  // es_AR: Cargando...
+  // es_ES: Cargando…
+  // es_MX: Cargando…
+  "loading_indicator.label": "",
+  // es_AR: Ocultar {number, plural, one {imagen} other {imágenes}}
+  // es_ES: Cambiar visibilidad
+  // es_MX: Cambiar visibilidad
+  "media_gallery.toggle_visible": "",
+  // es_AR: No se encontró
+  // es_ES: No encontrado
+  // es_MX: No encontrado
+  "missing_indicator.label": "",
+  // es_AR: No se encontró este recurso
+  // es_ES: No se encontró este recurso
+  // es_MX: No se encontró este recurso
+  "missing_indicator.sublabel": "",
+  // es_AR: Tu cuenta {disabledAccount} está actualmente deshabilitada porque te mudaste a {movedToAccount}.
+  // es_ES: Tu cuenta {disabledAccount} está actualmente deshabilitada porque te has mudado a {movedToAccount}.
+  // es_MX: Tu cuenta {disabledAccount} está actualmente deshabilitada porque te has mudado a {movedToAccount}.
+  "moved_to_account_banner.text": "",
+  // es_AR: Duración
+  // es_ES: Duración
+  // es_MX: Duración
+  "mute_modal.duration": "",
+  // es_AR: ¿Querés ocultar las notificaciones de este usuario?
+  // es_ES: Ocultar notificaciones de este usuario?
+  // es_MX: Ocultar notificaciones de este usuario?
+  "mute_modal.hide_notifications": "",
+  // es_AR: Indefinida
+  // es_ES: Indefinida
+  // es_MX: Indefinida
+  "mute_modal.indefinite": "",
+  // es_AR: Información
+  // es_ES: Acerca de
+  // es_MX: Acerca de
+  "navigation_bar.about": "",
+  // es_AR: Usuarios bloqueados
+  // es_ES: Usuarios bloqueados
+  // es_MX: Usuarios bloqueados
+  "navigation_bar.blocks": "",
+  // es_AR: Marcadores
+  // es_ES: Marcadores
+  // es_MX: Marcadores
+  "navigation_bar.bookmarks": "",
+  // es_AR: Línea temporal local
+  // es_ES: Línea de tiempo local
+  // es_MX: Historia local
+  "navigation_bar.community_timeline": "",
+  // es_AR: Redactar un nuevo mensaje
+  // es_ES: Escribir nueva publicación
+  // es_MX: Escribir un nuevo toot
+  "navigation_bar.compose": "",
+  // es_AR: Mensajes directos
+  // es_ES: Mensajes directos
+  // es_MX: Mensajes directos
+  "navigation_bar.direct": "",
+  // es_AR: Descubrir
+  // es_ES: Descubrir
+  // es_MX: Descubrir
+  "navigation_bar.discover": "",
+  // es_AR: Dominios bloqueados
+  // es_ES: Dominios ocultos
+  // es_MX: Dominios ocultos
+  "navigation_bar.domain_blocks": "",
+  // es_AR: Editar perfil
+  // es_ES: Editar perfil
+  // es_MX: Editar perfil
+  "navigation_bar.edit_profile": "",
+  // es_AR: Explorá
+  // es_ES: Explorar
+  // es_MX: Explorar
+  "navigation_bar.explore": "",
+  // es_AR: Favoritos
+  // es_ES: Favoritos
+  // es_MX: Favoritos
+  "navigation_bar.favourites": "",
+  // es_AR: Palabras silenciadas
+  // es_ES: Palabras silenciadas
+  // es_MX: Palabras silenciadas
+  "navigation_bar.filters": "",
+  // es_AR: Solicitudes de seguimiento
+  // es_ES: Solicitudes para seguirte
+  // es_MX: Solicitudes para seguirte
+  "navigation_bar.follow_requests": "",
+  // es_AR: Cuentas seguidas y seguidores
+  // es_ES: Siguiendo y seguidores
+  // es_MX: Siguiendo y seguidores
+  "navigation_bar.follows_and_followers": "",
+  // es_AR: Listas
+  // es_ES: Listas
+  // es_MX: Listas
+  "navigation_bar.lists": "",
+  // es_AR: Cerrar sesión
+  // es_ES: Cerrar sesión
+  // es_MX: Cerrar sesión
+  "navigation_bar.logout": "",
+  // es_AR: Usuarios silenciados
+  // es_ES: Usuarios silenciados
+  // es_MX: Usuarios silenciados
+  "navigation_bar.mutes": "",
+  // es_AR: Personal
+  // es_ES: Personal
+  // es_MX: Personal
+  "navigation_bar.personal": "",
+  // es_AR: Mensajes fijados
+  // es_ES: Publicaciones fijadas
+  // es_MX: Toots fijados
+  "navigation_bar.pins": "",
+  // es_AR: Configuración
+  // es_ES: Preferencias
+  // es_MX: Preferencias
+  "navigation_bar.preferences": "",
+  // es_AR: Línea temporal federada
+  // es_ES: Línea de tiempo federada
+  // es_MX: Historia federada
+  "navigation_bar.public_timeline": "",
+  // es_AR: Buscar
+  // es_ES: Buscar
+  // es_MX: Buscar
+  "navigation_bar.search": "",
+  // es_AR: Seguridad
+  // es_ES: Seguridad
+  // es_MX: Seguridad
+  "navigation_bar.security": "",
+  // es_AR: Necesitas iniciar sesión para acceder a este recurso.
+  // es_ES: Necesitas iniciar sesión para acceder a este recurso.
+  // es_MX: Necesitas iniciar sesión para acceder a este recurso.
+  "not_signed_in_indicator.not_signed_in": "",
+  // es_AR: {name} denunció a {target}
+  // es_ES: {name} informó {target}
+  // es_MX: {name} informó {target}
+  "notification.admin.report": "",
+  // es_AR: Se registró {name}
+  // es_ES: {name} se registró
+  // es_MX: {name} se unio
+  "notification.admin.sign_up": "",
+  // es_AR: {name} marcó tu mensaje como favorito
+  // es_ES: {name} marcó tu estado como favorito
+  // es_MX: {name} marcó tu estado como favorito
+  "notification.favourite": "",
+  // es_AR: {name} te empezó a seguir
+  // es_ES: {name} te empezó a seguir
+  // es_MX: {name} te empezó a seguir
+  "notification.follow": "",
+  // es_AR: {name} solicitó seguirte
+  // es_ES: {name} ha solicitado seguirte
+  // es_MX: {name} ha solicitado seguirte
+  "notification.follow_request": "",
+  // es_AR: {name} te mencionó
+  // es_ES: {name} te ha mencionado
+  // es_MX: {name} te ha mencionado
+  "notification.mention": "",
+  // es_AR: Tu encuesta finalizó
+  // es_ES: Tu encuesta ha terminado
+  // es_MX: Tu encuesta ha terminado
+  "notification.own_poll": "",
+  // es_AR: Finalizó una encuesta en la que votaste
+  // es_ES: Una encuesta en la que has votado ha terminado
+  // es_MX: Una encuesta en la que has votado ha terminado
+  "notification.poll": "",
+  // es_AR: {name} adhirió a tu mensaje
+  // es_ES: {name} ha retooteado tu publicación
+  // es_MX: {name} ha retooteado tu estado
+  "notification.reblog": "",
+  // es_AR: {name} acaba de enviar un mensaje
+  // es_ES: {name} acaba de publicar
+  // es_MX: {name} acaba de publicar
+  "notification.status": "",
+  // es_AR: {name} editó un mensaje
+  // es_ES: {name} editó una publicación
+  // es_MX: {name} editó una publicación
+  "notification.update": "",
+  // es_AR: Limpiar notificaciones
+  // es_ES: Limpiar notificaciones
+  // es_MX: Limpiar notificaciones
+  "notifications.clear": "",
+  // es_AR: ¿Estás seguro que querés limpiar todas tus notificaciones permanentemente?
+  // es_ES: ¿Seguro que quieres limpiar permanentemente todas tus notificaciones?
+  // es_MX: ¿Seguro que quieres limpiar permanentemente todas tus notificaciones?
+  "notifications.clear_confirmation": "",
+  // es_AR: Nuevas denuncias:
+  // es_ES: Nuevos informes:
+  // es_MX: Nuevos informes:
+  "notifications.column_settings.admin.report": "",
+  // es_AR: Nuevos registros:
+  // es_ES: Nuevos registros:
+  // es_MX: Registros nuevos:
+  "notifications.column_settings.admin.sign_up": "",
+  // es_AR: Notificaciones de escritorio
+  // es_ES: Notificaciones de escritorio
+  // es_MX: Notificaciones de escritorio
+  "notifications.column_settings.alert": "",
+  // es_AR: Favoritos:
+  // es_ES: Favoritos:
+  // es_MX: Favoritos:
+  "notifications.column_settings.favourite": "",
+  // es_AR: Mostrar todas las categorías
+  // es_ES: Mostrar todas las categorías
+  // es_MX: Mostrar todas las categorías
+  "notifications.column_settings.filter_bar.advanced": "",
+  // es_AR: Barra de filtrado rápido
+  // es_ES: Barra de filtrado rápido
+  // es_MX: Barra de filtrado rápido
+  "notifications.column_settings.filter_bar.category": "",
+  // es_AR: Mostrar barra de filtros
+  // es_ES: Mostrar barra de filtros
+  // es_MX: Mostrar barra de filtros
+  "notifications.column_settings.filter_bar.show_bar": "",
+  // es_AR: Nuevos seguidores:
+  // es_ES: Nuevos seguidores:
+  // es_MX: Nuevos seguidores:
+  "notifications.column_settings.follow": "",
+  // es_AR: Nuevas solicitudes de seguimiento:
+  // es_ES: Nuevas solicitudes de seguimiento:
+  // es_MX: Nuevas solicitudes de seguimiento:
+  "notifications.column_settings.follow_request": "",
+  // es_AR: Menciones:
+  // es_ES: Menciones:
+  // es_MX: Menciones:
+  "notifications.column_settings.mention": "",
+  // es_AR: Resultados de la encuesta:
+  // es_ES: Resultados de la votación:
+  // es_MX: Resultados de la votación:
+  "notifications.column_settings.poll": "",
+  // es_AR: Notificaciones push
+  // es_ES: Notificaciones push
+  // es_MX: Notificaciones push
+  "notifications.column_settings.push": "",
+  // es_AR: Adhesiones:
+  // es_ES: Retoots:
+  // es_MX: Retoots:
+  "notifications.column_settings.reblog": "",
+  // es_AR: Mostrar en columna
+  // es_ES: Mostrar en columna
+  // es_MX: Mostrar en columna
+  "notifications.column_settings.show": "",
+  // es_AR: Reproducir sonido
+  // es_ES: Reproducir sonido
+  // es_MX: Reproducir sonido
+  "notifications.column_settings.sound": "",
+  // es_AR: Nuevos mensajes:
+  // es_ES: Nuevas publicaciones:
+  // es_MX: Nuevos toots:
+  "notifications.column_settings.status": "",
+  // es_AR: Notificaciones sin leer
+  // es_ES: Notificaciones sin leer
+  // es_MX: Notificaciones sin leer
+  "notifications.column_settings.unread_notifications.category": "",
+  // es_AR: Resaltar notificaciones no leídas
+  // es_ES: Destacar notificaciones no leídas
+  // es_MX: Destacar notificaciones no leídas
+  "notifications.column_settings.unread_notifications.highlight": "",
+  // es_AR: Ediciones:
+  // es_ES: Ediciones:
+  // es_MX: Ediciones:
+  "notifications.column_settings.update": "",
+  // es_AR: Todas
+  // es_ES: Todos
+  // es_MX: Todos
+  "notifications.filter.all": "",
+  // es_AR: Adhesiones
+  // es_ES: Retoots
+  // es_MX: Retoots
+  "notifications.filter.boosts": "",
+  // es_AR: Favoritos
+  // es_ES: Favoritos
+  // es_MX: Favoritos
+  "notifications.filter.favourites": "",
+  // es_AR: Seguidores
+  // es_ES: Seguidores
+  // es_MX: Seguidores
+  "notifications.filter.follows": "",
+  // es_AR: Menciones
+  // es_ES: Menciones
+  // es_MX: Menciones
+  "notifications.filter.mentions": "",
+  // es_AR: Resultados de encuesta
+  // es_ES: Resultados de la votación
+  // es_MX: Resultados de la votación
+  "notifications.filter.polls": "",
+  // es_AR: Actualizaciones de cuentas que seguís
+  // es_ES: Actualizaciones de gente a la que sigues
+  // es_MX: Actualizaciones de gente a la que sigues
+  "notifications.filter.statuses": "",
+  // es_AR: Conceder permiso.
+  // es_ES: Conceder permiso.
+  // es_MX: Conceder permiso.
+  "notifications.grant_permission": "",
+  // es_AR: {count} notificaciones
+  // es_ES: {count} notificaciones
+  // es_MX: {count} notificaciones
+  "notifications.group": "",
+  // es_AR: Marcar cada notificación como leída
+  // es_ES: Marcar todas las notificaciones como leídas
+  // es_MX: Marcar todas las notificaciones como leídas
+  "notifications.mark_as_read": "",
+  // es_AR: Las notificaciones de escritorio no están disponibles, debido a una solicitud de permiso del navegador web previamente denegada
+  // es_ES: No se pueden habilitar las notificaciones de escritorio ya que se denegó el permiso.
+  // es_MX: No se pueden habilitar las notificaciones de escritorio ya que se denegó el permiso.
+  "notifications.permission_denied": "",
+  // es_AR: No se pueden habilitar las notificaciones de escritorio, ya que el permiso del navegador fue denegado antes
+  // es_ES: No se pueden habilitar las notificaciones de escritorio, ya que el permiso del navegador fue denegado anteriormente
+  // es_MX: No se pueden habilitar las notificaciones de escritorio, ya que el permiso del navegador fue denegado anteriormente
+  "notifications.permission_denied_alert": "",
+  // es_AR: Las notificaciones de escritorio no están disponibles porque no se concedió el permiso requerido.
+  // es_ES: Las notificaciones de escritorio no están disponibles porque no se ha concedido el permiso requerido.
+  // es_MX: Las notificaciones de escritorio no están disponibles porque no se ha concedido el permiso requerido.
+  "notifications.permission_required": "",
+  // es_AR: Habilitar notificaciones de escritorio
+  // es_ES: Habilitar notificaciones de escritorio
+  // es_MX: Habilitar notificaciones de escritorio
+  "notifications_permission_banner.enable": "",
+  // es_AR: Para recibir notificaciones cuando Mastodon no está abierto, habilitá las notificaciones de escritorio. Podés controlar con precisión qué tipos de interacciones generan notificaciones de escritorio a través del botón {icon} de arriba, una vez que estén habilitadas.
+  // es_ES: Para recibir notificaciones cuando Mastodon no esté abierto, habilite las notificaciones de escritorio. Puedes controlar con precisión qué tipos de interacciones generan notificaciones de escritorio a través del botón {icon} de arriba una vez que estén habilitadas.
+  // es_MX: Para recibir notificaciones cuando Mastodon no esté abierto, habilite las notificaciones de escritorio. Puedes controlar con precisión qué tipos de interacciones generan notificaciones de escritorio a través del botón {icon} de arriba una vez que estén habilitadas.
+  "notifications_permission_banner.how_to_control": "",
+  // es_AR: No te pierdas nada
+  // es_ES: Nunca te pierdas nada
+  // es_MX: Nunca te pierdas nada
+  "notifications_permission_banner.title": "",
+  // es_AR: Restaurar
+  // es_ES: Restaurar
+  // es_MX: Restaurar
+  "picture_in_picture.restore": "",
+  // es_AR: Cerrada
+  // es_ES: Cerrada
+  // es_MX: Cerrada
+  "poll.closed": "",
+  // es_AR: Refrescar
+  // es_ES: Actualizar
+  // es_MX: Actualizar
+  "poll.refresh": "",
+  // es_AR: {count, plural, one {# persona} other {# personas}}
+  // es_ES: {count, plural, one {# persona} other {# personas}}
+  // es_MX: {count, plural, one {# persona} other {# personas}}
+  "poll.total_people": "",
+  // es_AR: {count, plural, one {# voto} other {# votos}}
+  // es_ES: {count, plural, one {# voto} other {# votos}}
+  // es_MX: {count, plural, one {# voto} other {# votos}}
+  "poll.total_votes": "",
+  // es_AR: Votar
+  // es_ES: Votar
+  // es_MX: Votar
+  "poll.vote": "",
+  // es_AR: Votaste esta opción
+  // es_ES: Has votado a favor de esta respuesta
+  // es_MX: Has votado a favor de esta respuesta
+  "poll.voted": "",
+  // es_AR: {votes, plural, one {# voto} other {# votos}}
+  // es_ES: {votes, plural, one {# voto} other {# votos}}
+  // es_MX: {votes, plural, one {# voto} other {# votes}}
+  "poll.votes": "",
+  // es_AR: Agregar encuesta
+  // es_ES: Añadir una encuesta
+  // es_MX: Añadir una encuesta
+  "poll_button.add_poll": "",
+  // es_AR: Quitar encuesta
+  // es_ES: Eliminar encuesta
+  // es_MX: Eliminar encuesta
+  "poll_button.remove_poll": "",
+  // es_AR: Configurar privacidad del mensaje
+  // es_ES: Ajustar privacidad
+  // es_MX: Ajustar privacidad
+  "privacy.change": "",
+  // es_AR: Visible sólo para los usuarios mencionados
+  // es_ES: Sólo mostrar a los usuarios mencionados
+  // es_MX: Sólo mostrar a los usuarios mencionados
+  "privacy.direct.long": "",
+  // es_AR: Sólo cuentas mencionadas
+  // es_ES: Sólo cuentas mencionadas
+  // es_MX: Sólo cuentas mencionadas
+  "privacy.direct.short": "",
+  // es_AR: Visible sólo para los seguidores
+  // es_ES: Sólo mostrar a seguidores
+  // es_MX: Sólo mostrar a seguidores
+  "privacy.private.long": "",
+  // es_AR: Sólo para seguidores
+  // es_ES: Solo seguidores
+  // es_MX: Solo seguidores
+  "privacy.private.short": "",
+  // es_AR: Visible para todos
+  // es_ES: Visible para todos
+  // es_MX: Visible para todos
+  "privacy.public.long": "",
+  // es_AR: Público
+  // es_ES: Público
+  // es_MX: Público
+  "privacy.public.short": "",
+  // es_AR: Visible para todos, pero excluido de las características de descubrimiento
+  // es_ES: Visible para todos, pero excluido de las funciones de descubrimiento
+  // es_MX: Visible para todos, pero excluido de las funciones de descubrimiento
+  "privacy.unlisted.long": "",
+  // es_AR: No listado
+  // es_ES: No listado
+  // es_MX: No listado
+  "privacy.unlisted.short": "",
+  // es_AR: Última actualización: {date}
+  // es_ES: Ultima vez actualizado {date}
+  // es_MX: Ultima vez actualizado {date}
+  "privacy_policy.last_updated": "",
+  // es_AR: Política de privacidad
+  // es_ES: Política de Privacidad
+  // es_MX: Política de Privacidad
+  "privacy_policy.title": "",
+  // es_AR: Refrescar
+  // es_ES: Actualizar
+  // es_MX: Actualizar
+  "refresh": "",
+  // es_AR: Cargando…
+  // es_ES: Cargando…
+  // es_MX: Cargando…
+  "regeneration_indicator.label": "",
+  // es_AR: ¡Se está preparando tu línea temporal principal!
+  // es_ES: ¡Tu historia de inicio se está preparando!
+  // es_MX: ¡Tu historia de inicio se está preparando!
+  "regeneration_indicator.sublabel": "",
+  // es_AR: {number}d
+  // es_ES: {number} d
+  // es_MX: {number} d
+  "relative_time.days": "",
+  // es_AR: {number, plural,one {hace # día} other {hace # días}}
+  // es_ES: hace {number, plural, one {# día} other {# días}}
+  // es_MX: {number, plural, one {# día} other {# días hace}}
+  "relative_time.full.days": "",
+  // es_AR: {number, plural,one {hace # hora} other {hace # horas}}
+  // es_ES: hace {number, plural, one {# hora} other {# horas}}
+  // es_MX: {number, plural, one {# hora} other {# horas}} hace
+  "relative_time.full.hours": "",
+  // es_AR: recién
+  // es_ES: justo ahora
+  // es_MX: justo ahora
+  "relative_time.full.just_now": "",
+  // es_AR: {number, plural,one {hace # minuto} other {hace # minutos}}
+  // es_ES: hace {number, plural, one {# minuto} other {# minutos}}
+  // es_MX: Hace {number, plural, one {# minute} other {# minutos}}
+  "relative_time.full.minutes": "",
+  // es_AR: {number, plural,one {hace # segundo} other {hace # segundos}}
+  // es_ES: hace {number, plural, one {# segundo} other {# segundos}}
+  // es_MX: Hace {number, plural, one {# second} other {# segundos}}
+  "relative_time.full.seconds": "",
+  // es_AR: {number}h
+  // es_ES: {number} h
+  // es_MX: {number} h
+  "relative_time.hours": "",
+  // es_AR: ahora
+  // es_ES: ahora
+  // es_MX: ahora
+  "relative_time.just_now": "",
+  // es_AR: {number}m
+  // es_ES: {number} m
+  // es_MX: {number} m
+  "relative_time.minutes": "",
+  // es_AR: {number}s
+  // es_ES: {number} s
+  // es_MX: {number} s
+  "relative_time.seconds": "",
+  // es_AR: hoy
+  // es_ES: hoy
+  // es_MX: hoy
+  "relative_time.today": "",
+  // es_AR: Cancelar
+  // es_ES: Cancelar
+  // es_MX: Cancelar
+  "reply_indicator.cancel": "",
+  // es_AR: Bloquear
+  // es_ES: Bloquear
+  // es_MX: Bloquear
+  "report.block": "",
+  // es_AR: No verás sus mensajes. No podrán ver tus mensajes ni seguirte. Se van a dar cuentra de que están bloqueados.
+  // es_ES: No verás sus publicaciones. No podrán ver tus publicaciones ni seguirte. Podrán saber que están bloqueados.
+  // es_MX: No veras sus publicaciones. No podrán ver tus publicaciones ni seguirte. Podrán saber que están bloqueados.
+  "report.block_explanation": "",
+  // es_AR: Otra
+  // es_ES: Otros
+  // es_MX: Otro
+  "report.categories.other": "",
+  // es_AR: Spam
+  // es_ES: Spam
+  // es_MX: Spam
+  "report.categories.spam": "",
+  // es_AR: El contenido viola una o más reglas del servidor
+  // es_ES: El contenido viola una o más reglas del servidor
+  // es_MX: El contenido viola una o más reglas del servidor
+  "report.categories.violation": "",
+  // es_AR: Elegí la mejor coincidencia
+  // es_ES: Elige la mejor coincidencia
+  // es_MX: Selecciona la mejor coincidencia
+  "report.category.subtitle": "",
+  // es_AR: Contanos lo que pasa con este {type}
+  // es_ES: Cuéntanos lo que está pasando con este {type}
+  // es_MX: Cuéntanos lo que sucede con este {type}
+  "report.category.title": "",
+  // es_AR: perfil
+  // es_ES: perfil
+  // es_MX: perfil
+  "report.category.title_account": "",
+  // es_AR: mensaje
+  // es_ES: publicacion
+  // es_MX: publicación
+  "report.category.title_status": "",
+  // es_AR: Listo
+  // es_ES: Hecho
+  // es_MX: Realizado
+  "report.close": "",
+  // es_AR: ¿Hay algo más que creés que deberíamos saber?
+  // es_ES: ¿Hay algo más que creas que deberíamos saber?
+  // es_MX: ¿Hay algo más que usted cree que debamos saber?
+  "report.comment.title": "",
+  // es_AR: Reenviar a {target}
+  // es_ES: Reenviar a {target}
+  // es_MX: Reenviar a {target}
+  "report.forward": "",
+  // es_AR: La cuenta es de otro servidor. ¿Querés enviar una copia anonimizada del informe también ahí?
+  // es_ES: Esta cuenta es de otro servidor. ¿Enviar una copia anonimizada del informe allí también?
+  // es_MX: Esta cuenta es de otro servidor. ¿Enviar una copia anonimizada del informe allí también?
+  "report.forward_hint": "",
+  // es_AR: Silenciar
+  // es_ES: Silenciar
+  // es_MX: Silenciar
+  "report.mute": "",
+  // es_AR: No verás sus mensajes. Todavía pueden seguirte y ver tus mensajes y no sabrán que están silenciados.
+  // es_ES: No verás sus publicaciones. Todavía pueden seguirte y ver tus mensajes y no sabrán que están silenciados.
+  // es_MX: No veras sus publiaciones. Todavía pueden seguirte y ver tus publicaciones y no sabrán que están silenciados.
+  "report.mute_explanation": "",
+  // es_AR: Siguiente
+  // es_ES: Siguiente
+  // es_MX: Siguiente
+  "report.next": "",
+  // es_AR: Comentarios adicionales
+  // es_ES: Comentarios adicionales
+  // es_MX: Comentarios adicionales
+  "report.placeholder": "",
+  // es_AR: No me gusta
+  // es_ES: No me gusta
+  // es_MX: No me gusta
+  "report.reasons.dislike": "",
+  // es_AR: No es algo que querés ver
+  // es_ES: No es algo que quieras ver
+  // es_MX: No es algo que desee ver
+  "report.reasons.dislike_description": "",
+  // es_AR: Es otra cosa
+  // es_ES: Es otra cosa
+  // es_MX: Es algo más
+  "report.reasons.other": "",
+  // es_AR: El problema no aplica en otras categorías
+  // es_ES: El problema no encaja en otras categorías
+  // es_MX: El problema no encaja en otras categorías
+  "report.reasons.other_description": "",
+  // es_AR: Es spam
+  // es_ES: Es spam
+  // es_MX: Es spam
+  "report.reasons.spam": "",
+  // es_AR: Enlaces maliciosos, interacciones falsas o respuestas repetitivas
+  // es_ES: Enlaces maliciosos, interacciones falsas o respuestas repetitivas
+  // es_MX: Enlaces maliciosos, Interacciones falsas, o respuestas repetitivas
+  "report.reasons.spam_description": "",
+  // es_AR: Viola las reglas del servidor
+  // es_ES: Viola las reglas del servidor
+  // es_MX: Viola las reglas del servidor
+  "report.reasons.violation": "",
+  // es_AR: Sos consciente de que infringe normas específicas
+  // es_ES: Eres consciente de que infringe las normas específicas
+  // es_MX: Es consciente de que infringe normas específicas
+  "report.reasons.violation_description": "",
+  // es_AR: Seleccioná todo lo que corresponda
+  // es_ES: Selecciona todos los que correspondan
+  // es_MX: Selecciona todos los que apliquen
+  "report.rules.subtitle": "",
+  // es_AR: ¿Qué reglas se están violando?
+  // es_ES: ¿Qué normas se están violando?
+  // es_MX: ¿Qué reglas se están violando?
+  "report.rules.title": "",
+  // es_AR: Seleccioná todo lo que corresponda
+  // es_ES: Selecciona todos los que correspondan
+  // es_MX: Seleccione todos lo que aplican
+  "report.statuses.subtitle": "",
+  // es_AR: ¿Hay algún mensaje que respalde esta denuncia?
+  // es_ES: ¿Hay alguna publicación que respalde este informe?
+  // es_MX: ¿Hay alguna publicación que respalde este informe?
+  "report.statuses.title": "",
+  // es_AR: Enviar
+  // es_ES: Enviar
+  // es_MX: Publicar
+  "report.submit": "",
+  // es_AR: Denunciando a {target}
+  // es_ES: Reportando
+  // es_MX: Reportando
+  "report.target": "",
+  // es_AR: Acá están tus opciones para controlar lo que ves en Mastodon:
+  // es_ES: Aquí están tus opciones para controlar lo que ves en Mastodon:
+  // es_MX: Aqui hay algunas opciones para controlar lo que ves en Mastodon:
+  "report.thanks.take_action": "",
+  // es_AR: Mientras revisamos esto, podés tomar medidas contra @{name}:
+  // es_ES: Mientras revisamos esto, puedes tomar medidas contra @{name}:
+  // es_MX: Mientras revisamos esto, puedes tomar medidas contra @{name}:
+  "report.thanks.take_action_actionable": "",
+  // es_AR: ¿No querés ver esto?
+  // es_ES: ¿No quieres esto?
+  // es_MX: ¿No quieres ver esto?
+  "report.thanks.title": "",
+  // es_AR: Gracias por tu denuncia, vamos a revisarla.
+  // es_ES: Gracias por informar, estudiaremos esto.
+  // es_MX: Gracias por informar, estudiaremos esto.
+  "report.thanks.title_actionable": "",
+  // es_AR: Dejar de seguir a @{name}
+  // es_ES: Dejar de seguir a @{name}
+  // es_MX: Dejar de seguir @{name}
+  "report.unfollow": "",
+  // es_AR: Estás siguiendo a esta cuenta. Para no ver sus mensajes en tu línea temporal principal, dejá de seguirla.
+  // es_ES: Estás siguiendo esta cuenta. Para no ver sus publicaciones en tu muro de inicio, deja de seguirla.
+  // es_MX: Estás siguiendo esta cuenta. Para no ver sus publicaciones en tu sección de noticias, deja de seguirlo.
+  "report.unfollow_explanation": "",
+  // es_AR: {count, plural, one {{count} mensaje adjunto} other {{count} mensajes adjuntos}}
+  // es_ES: {count, plural, one {{count} publicación} other {{count} publicaciones}} adjunta(s)
+  // es_MX: {count, plural, one {{count} publicación} other {{count} publicaciones}} adjunta(s)
+  "report_notification.attached_statuses": "",
+  // es_AR: Otros
+  // es_ES: Otros
+  // es_MX: Otros
+  "report_notification.categories.other": "",
+  // es_AR: Spam
+  // es_ES: Spam
+  // es_MX: Spam
+  "report_notification.categories.spam": "",
+  // es_AR: Violación de regla
+  // es_ES: Infracción de regla
+  // es_MX: Infracción de regla
+  "report_notification.categories.violation": "",
+  // es_AR: Abrir denuncia
+  // es_ES: Abrir informe
+  // es_MX: Abrir informe
+  "report_notification.open": "",
+  // es_AR: Buscar
+  // es_ES: Buscar
+  // es_MX: Buscar
+  "search.placeholder": "",
+  // es_AR: Buscar o pegar dirección web
+  // es_ES: Buscar o pegar URL
+  // es_MX: Buscar o pegar URL
+  "search.search_or_paste": "",
+  // es_AR: Formato de búsqueda avanzada
+  // es_ES: Formato de búsqueda avanzada
+  // es_MX: Formato de búsqueda avanzada
+  "search_popout.search_format": "",
+  // es_AR: Las búsquedas de texto simple devuelven los mensajes que escribiste, los marcados como favoritos, los adheridos o en los que te mencionaron, así como nombres de usuarios, nombres mostrados y etiquetas.
+  // es_ES: Las búsquedas de texto recuperan publicaciones que has escrito, marcado como favoritas, retooteado o en los que has sido mencionado, así como usuarios, nombres y hashtags.
+  // es_MX: Búsquedas de texto recuperan posts que has escrito, marcado como favoritos, retooteado o en los que has sido mencionado, así como usuarios, nombres y hashtags.
+  "search_popout.tips.full_text": "",
+  // es_AR: etiqueta
+  // es_ES: etiqueta
+  // es_MX: etiqueta
+  "search_popout.tips.hashtag": "",
+  // es_AR: mensaje
+  // es_ES: status
+  // es_MX: status
+  "search_popout.tips.status": "",
+  // es_AR: Las búsquedas de texto simple devuelven nombres de usuarios, nombres mostrados y etiquetas que coincidan
+  // es_ES: El texto simple devuelve correspondencias de nombre, usuario y hashtag
+  // es_MX: El texto simple devuelve correspondencias de nombre, usuario y hashtag
+  "search_popout.tips.text": "",
+  // es_AR: usuario
+  // es_ES: usuario
+  // es_MX: usuario
+  "search_popout.tips.user": "",
+  // es_AR: Gente
+  // es_ES: Gente
+  // es_MX: Gente
+  "search_results.accounts": "",
+  // es_AR: Todos
+  // es_ES: Todos
+  // es_MX: Todos
+  "search_results.all": "",
+  // es_AR: Etiquetas
+  // es_ES: Etiquetas
+  // es_MX: Etiquetas
+  "search_results.hashtags": "",
+  // es_AR: No se pudo encontrar nada para estos términos de búsqueda
+  // es_ES: No se pudo encontrar nada para estos términos de búsqueda
+  // es_MX: No se pudo encontrar nada para estos términos de busqueda
+  "search_results.nothing_found": "",
+  // es_AR: Mensajes
+  // es_ES: Publicaciones
+  // es_MX: Toots
+  "search_results.statuses": "",
+  // es_AR: No se pueden buscar mensajes por contenido en este servidor de Mastodon.
+  // es_ES: Buscar publicaciones por su contenido no está disponible en este servidor de Mastodon.
+  // es_MX: Buscar toots por su contenido no está disponible en este servidor de Mastodon.
+  "search_results.statuses_fts_disabled": "",
+  // es_AR: Buscar {q}
+  // es_ES: Buscar {q}
+  // es_MX: Buscar {q}
+  "search_results.title": "",
+  // es_AR: {count, number} {count, plural, one {resultado} other {resultados}}
+  // es_ES: {count, number} {count, plural, one {resultado} other {resultados}}
+  // es_MX: {count, number} {count, plural, one {resultado} other {resultados}}
+  "search_results.total": "",
+  // es_AR: Personas usando este servidor durante los últimos 30 días (Usuarios Activos Mensuales)
+  // es_ES: Usuarios activos en el servidor durante los últimos 30 días (Usuarios Activos Mensuales)
+  // es_MX: Usuarios activos en el servidor durante los últimos 30 días (Usuarios Activos Mensuales)
+  "server_banner.about_active_users": "",
+  // es_AR: usuarios activos
+  // es_ES: usuarios activos
+  // es_MX: usuarios activos
+  "server_banner.active_users": "",
+  // es_AR: Administrado por:
+  // es_ES: Administrado por:
+  // es_MX: Administrado por:
+  "server_banner.administered_by": "",
+  // es_AR: {domain} es parte de la red social descentralizada con la tecnología de {mastodon}.
+  // es_ES: {domain} es parte de la red social descentralizada liderada por {mastodon}.
+  // es_MX: {domain} es parte de la red social descentralizada liderada por {mastodon}.
+  "server_banner.introduction": "",
+  // es_AR: Aprendé más
+  // es_ES: Saber más
+  // es_MX: Saber más
+  "server_banner.learn_more": "",
+  // es_AR: Estadísticas del servidor:
+  // es_ES: Estadísticas del servidor:
+  // es_MX: Estadísticas del servidor:
+  "server_banner.server_stats": "",
+  // es_AR: Crear cuenta
+  // es_ES: Crear cuenta
+  // es_MX: Crear cuenta
+  "sign_in_banner.create_account": "",
+  // es_AR: Iniciar sesión
+  // es_ES: Iniciar sesión
+  // es_MX: Iniciar sesión
+  "sign_in_banner.sign_in": "",
+  // es_AR: Iniciá sesión para seguir cuentas o etiquetas, marcar mensajes como favoritos, compartirlos y responderlos o interactuar desde tu cuenta en un servidor diferente.
+  // es_ES: Inicia sesión en este servidor para seguir perfiles o etiquetas, guardar, compartir y responder a mensajes. También puedes interactuar desde otra cuenta en un servidor diferente.
+  // es_MX: Inicia sesión en este servidor para seguir perfiles o etiquetas, guardar, compartir y responder a mensajes. También puedes interactuar desde otra cuenta en un servidor diferente.
+  "sign_in_banner.text": "",
+  // es_AR: Abrir interface de moderación para @{name}
+  // es_ES: Abrir interfaz de moderación para @{name}
+  // es_MX: Abrir interfaz de moderación para @{name}
+  "status.admin_account": "",
+  // es_AR: Abrir este mensaje en la interface de moderación
+  // es_ES: Abrir este estado en la interfaz de moderación
+  // es_MX: Abrir este estado en la interfaz de moderación
+  "status.admin_status": "",
+  // es_AR: Bloquear a @{name}
+  // es_ES: Bloquear a @{name}
+  // es_MX: Bloquear a @{name}
+  "status.block": "",
+  // es_AR: Marcar
+  // es_ES: Añadir marcador
+  // es_MX: Añadir marcador
+  "status.bookmark": "",
+  // es_AR: Quitar adhesión
+  // es_ES: Deshacer retoot
+  // es_MX: Eliminar retoot
+  "status.cancel_reblog_private": "",
+  // es_AR: No se puede adherir a este mensaje
+  // es_ES: Esta publicación no puede retootearse
+  // es_MX: Este toot no puede retootearse
+  "status.cannot_reblog": "",
+  // es_AR: Copiar enlace al mensaje
+  // es_ES: Copiar enlace al estado
+  // es_MX: Copiar enlace al estado
+  "status.copy": "",
+  // es_AR: Eliminar
+  // es_ES: Borrar
+  // es_MX: Borrar
+  "status.delete": "",
+  // es_AR: Vista de conversación detallada
+  // es_ES: Vista de conversación detallada
+  // es_MX: Vista de conversación detallada
+  "status.detailed_status": "",
+  // es_AR: Mensaje directo para @{name}
+  // es_ES: Mensaje directo a @{name}
+  // es_MX: Mensaje directo a @{name}
+  "status.direct": "",
+  // es_AR: Editar
+  // es_ES: Editar
+  // es_MX: Editar
+  "status.edit": "",
+  // es_AR: Editado {date}
+  // es_ES: Editado {date}
+  // es_MX: Editado {date}
+  "status.edited": "",
+  // es_AR: Editado {count, plural, one {{count} vez} other {{count} veces}}
+  // es_ES: Editado {count, plural, one {{count} vez} other {{count} veces}}
+  // es_MX: Editado {count, plural, one {{count} time} other {{count} veces}}
+  "status.edited_x_times": "",
+  // es_AR: Insertar
+  // es_ES: Incrustado
+  // es_MX: Incrustado
+  "status.embed": "",
+  // es_AR: Marcar como favorito
+  // es_ES: Favorito
+  // es_MX: Favorito
+  "status.favourite": "",
+  // es_AR: Filtrar este mensaje
+  // es_ES: Filtrar esta publicación
+  // es_MX: Filtrar esta publicación
+  "status.filter": "",
+  // es_AR: Filtrado
+  // es_ES: Filtrado
+  // es_MX: Filtrado
+  "status.filtered": "",
+  // es_AR: Ocultar mensaje
+  // es_ES: Ocultar publicación
+  // es_MX: Ocultar publicación
+  "status.hide": "",
+  // es_AR: Creado por {name} el {date}
+  // es_ES: {name} creó {date}
+  // es_MX: {name} creó {date}
+  "status.history.created": "",
+  // es_AR: Editado por {name} el {date}
+  // es_ES: {name} editó {date}
+  // es_MX: {name} editado {date}
+  "status.history.edited": "",
+  // es_AR: Cargar más
+  // es_ES: Cargar más
+  // es_MX: Cargar más
+  "status.load_more": "",
+  // es_ES: This post is only visible by other users of your instance
+  "status.local_only": "",
+  // es_AR: Medios ocultos
+  // es_ES: Contenido multimedia oculto
+  // es_MX: Contenido multimedia oculto
+  "status.media_hidden": "",
+  // es_AR: Mencionar a @{name}
+  // es_ES: Mencionar
+  // es_MX: Mencionar
+  "status.mention": "",
+  // es_AR: Más
+  // es_ES: Más
+  // es_MX: Más
+  "status.more": "",
+  // es_AR: Silenciar a @{name}
+  // es_ES: Silenciar @{name}
+  // es_MX: Silenciar @{name}
+  "status.mute": "",
+  // es_AR: Silenciar conversación
+  // es_ES: Silenciar conversación
+  // es_MX: Silenciar conversación
+  "status.mute_conversation": "",
+  // es_AR: Expandir este mensaje
+  // es_ES: Expandir estado
+  // es_MX: Expandir estado
+  "status.open": "",
+  // es_AR: Fijar en el perfil
+  // es_ES: Fijar
+  // es_MX: Fijar
+  "status.pin": "",
+  // es_AR: Mensaje fijado
+  // es_ES: Publicación fijada
+  // es_MX: Toot fijado
+  "status.pinned": "",
+  // es_AR: Leé más
+  // es_ES: Leer más
+  // es_MX: Leer más
+  "status.read_more": "",
+  // es_AR: Adherir
+  // es_ES: Retootear
+  // es_MX: Retootear
+  "status.reblog": "",
+  // es_AR: Adherir a la audiencia original
+  // es_ES: Impulsar a la audiencia original
+  // es_MX: Implusar a la audiencia original
+  "status.reblog_private": "",
+  // es_AR: {name} adhirió
+  // es_ES: Retooteado por {name}
+  // es_MX: Retooteado por {name}
+  "status.reblogged_by": "",
+  // es_AR: Todavía nadie adhirió a este mensaje. Cuando alguien lo haga, se mostrará acá.
+  // es_ES: Nadie retooteó este toot todavía. Cuando alguien lo haga, aparecerá aquí.
+  // es_MX: Nadie retooteó este toot todavía. Cuando alguien lo haga, aparecerá aquí.
+  "status.reblogs.empty": "",
+  // es_AR: Eliminar mensaje original y editarlo
+  // es_ES: Borrar y volver a borrador
+  // es_MX: Borrar y volver a borrador
+  "status.redraft": "",
+  // es_AR: Quitar marcador
+  // es_ES: Eliminar marcador
+  // es_MX: Eliminar marcador
+  "status.remove_bookmark": "",
+  // es_AR: Respondió a {name}
+  // es_ES: Respondió a {name}
+  // es_MX: Respondió a {name}
+  "status.replied_to": "",
+  // es_AR: Responder
+  // es_ES: Responder
+  // es_MX: Responder
+  "status.reply": "",
+  // es_AR: Responder al hilo
+  // es_ES: Responder al hilo
+  // es_MX: Responder al hilo
+  "status.replyAll": "",
+  // es_AR: Denunciar a @{name}
+  // es_ES: Reportar
+  // es_MX: Reportar
+  "status.report": "",
+  // es_AR: Contenido sensible
+  // es_ES: Contenido sensible
+  // es_MX: Contenido sensible
+  "status.sensitive_warning": "",
+  // es_AR: Compartir
+  // es_ES: Compartir
+  // es_MX: Compartir
+  "status.share": "",
+  // es_AR: Mostrar de todos modos
+  // es_ES: Mostrar de todos modos
+  // es_MX: Mostrar de todos modos
+  "status.show_filter_reason": "",
+  // es_AR: Mostrar menos
+  // es_ES: Mostrar menos
+  // es_MX: Mostrar menos
+  "status.show_less": "",
+  // es_AR: Mostrar menos para todo
+  // es_ES: Mostrar menos para todo
+  // es_MX: Mostrar menos para todo
+  "status.show_less_all": "",
+  // es_AR: Mostrar más
+  // es_ES: Mostrar más
+  // es_MX: Mostrar más
+  "status.show_more": "",
+  // es_AR: Mostrar más para todo
+  // es_ES: Mostrar más para todo
+  // es_MX: Mostrar más para todo
+  "status.show_more_all": "",
+  // es_AR: Mostrar original
+  // es_ES: Mostrar original
+  // es_MX: Mostrar original
+  "status.show_original": "",
+  // es_AR: Traducir
+  // es_ES: Traducir
+  // es_MX: Traducir
+  "status.translate": "",
+  // es_AR: Traducido desde el {lang} vía {provider}
+  // es_ES: Traducido de {lang} usando {provider}
+  // es_MX: Traducido de {lang} usando {provider}
+  "status.translated_from_with": "",
+  // es_AR: No disponible
+  // es_ES: No disponible
+  // es_MX: No disponible
+  "status.uncached_media_warning": "",
+  // es_AR: Dejar de silenciar conversación
+  // es_ES: Dejar de silenciar conversación
+  // es_MX: Dejar de silenciar conversación
+  "status.unmute_conversation": "",
+  // es_AR: Dejar de fijar
+  // es_ES: Dejar de fijar
+  // es_MX: Dejar de fijar
+  "status.unpin": "",
+  // es_AR: Después del cambio, sólo los mensajes en los idiomas seleccionados aparecerán en tu línea temporal Principal y en las líneas de tiempo de lista. No seleccionés ningún idioma para poder recibir mensajes en todos los idiomas.
+  // es_ES: Sólo los mensajes en los idiomas seleccionados aparecerán en su inicio y otras líneas de tiempo después del cambio. Seleccione ninguno para recibir mensajes en todos los idiomas.
+  // es_MX: Sólo los mensajes en los idiomas seleccionados aparecerán en su inicio y otras líneas de tiempo después del cambio. Seleccione ninguno para recibir mensajes en todos los idiomas.
+  "subscribed_languages.lead": "",
+  // es_AR: Guardar cambios
+  // es_ES: Guardar cambios
+  // es_MX: Guardar cambios
+  "subscribed_languages.save": "",
+  // es_AR: Cambiar idiomas suscritos para {target}
+  // es_ES: Cambiar idiomas suscritos para {target}
+  // es_MX: Cambiar idiomas suscritos para {target}
+  "subscribed_languages.target": "",
+  // es_AR: Descartar sugerencia
+  // es_ES: Descartar sugerencia
+  // es_MX: Descartar sugerencia
+  "suggestions.dismiss": "",
+  // es_AR: Es posible que te interese…
+  // es_ES: Es posible que te interese…
+  // es_MX: Es posible que te interese…
+  "suggestions.header": "",
+  // es_AR: Federada
+  // es_ES: Federada
+  // es_MX: Federado
+  "tabs_bar.federated_timeline": "",
+  // es_AR: Principal
+  // es_ES: Inicio
+  // es_MX: Inicio
+  "tabs_bar.home": "",
+  // es_AR: Local
+  // es_ES: Local
+  // es_MX: Reciente
+  "tabs_bar.local_timeline": "",
+  // es_AR: Notificaciones
+  // es_ES: Notificaciones
+  // es_MX: Notificaciones
+  "tabs_bar.notifications": "",
+  // es_AR: {number, plural,one {queda # día} other {quedan # días}}
+  // es_ES: {number, plural, one {# día restante} other {# días restantes}}
+  // es_MX: {number, plural, one {# día restante} other {# días restantes}}
+  "time_remaining.days": "",
+  // es_AR: {number, plural,one {queda # hora} other {quedan # horas}}
+  // es_ES: {number, plural, one {# hora restante} other {# horas restantes}}
+  // es_MX: {number, plural, one {# hora restante} other {# horas restantes}}
+  "time_remaining.hours": "",
+  // es_AR: {number, plural,one {queda # minuto} other {quedan # minutos}}
+  // es_ES: {number, plural, one {# minuto restante} other {# minutos restantes}}
+  // es_MX: {number, plural, one {# minuto restante} other {# minutos restantes}}
+  "time_remaining.minutes": "",
+  // es_AR: Momentos restantes
+  // es_ES: Momentos restantes
+  // es_MX: Momentos restantes
+  "time_remaining.moments": "",
+  // es_AR: {number, plural,one {queda # segundo} other {quedan # segundos}}
+  // es_ES: {number, plural, one {# segundo restante} other {# segundos restantes}}
+  // es_MX: {number, plural, one {# segundo restante} other {# segundos restantes}}
+  "time_remaining.seconds": "",
+  // es_AR: {resource} desde otros servidores no se muestran.
+  // es_ES: {resource} de otros servidores no se muestran.
+  // es_MX: {resource} de otros servidores no se muestran.
+  "timeline_hint.remote_resource_not_displayed": "",
+  // es_AR: Tus seguidores
+  // es_ES: Seguidores
+  // es_MX: Seguidores
+  "timeline_hint.resources.followers": "",
+  // es_AR: Las cuentas que seguís
+  // es_ES: Seguidos
+  // es_MX: Seguidos
+  "timeline_hint.resources.follows": "",
+  // es_AR: Mensajes más antiguos
+  // es_ES: Publicaciones más antiguas
+  // es_MX: Toots más antiguos
+  "timeline_hint.resources.statuses": "",
+  // es_AR: {count, plural, one {{counter} persona} other {{counter} personas}} en el/los pasado/s {days, plural, one {día} other {{days} días}}
+  // es_ES: {count, plural, one {{counter} persona} other {{counter} personas}} en los últimos {days, plural, one {días} other {{days} días}}
+  // es_MX: {count, plural, one {{counter} persona} other {{counter} personas}} en los últimos {days, plural, one {días} other {{days} días}}
+  "trends.counter_by_accounts": "",
+  // es_AR: Tendencia ahora
+  // es_ES: Tendencia ahora
+  // es_MX: Tendencia ahora
+  "trends.trending_now": "",
+  // es_AR: Tu borrador se perderá si abandonás Mastodon.
+  // es_ES: Tu borrador se perderá si sales de Mastodon.
+  // es_MX: Tu borrador se perderá si sales de Mastodon.
+  "ui.beforeunload": "",
+  // es_AR: {count}MM
+  // es_ES: {count} MM
+  // es_MX: {count} MM
+  "units.short.billion": "",
+  // es_AR: {count} M
+  // es_ES: {count} M
+  // es_MX: {count} M
+  "units.short.million": "",
+  // es_AR: {count} mil
+  // es_ES: {count} K
+  // es_MX: {count} K
+  "units.short.thousand": "",
+  // es_AR: Para subir, arrastrá y soltá
+  // es_ES: Arrastra y suelta para subir
+  // es_MX: Arrastra y suelta para subir
+  "upload_area.title": "",
+  // es_AR: Agregá imágenes, o un archivo de audio o video
+  // es_ES: Subir multimedia (JPEG, PNG, GIF, WebM, MP4, MOV)
+  // es_MX: Subir multimedia (JPEG, PNG, GIF, WebM, MP4, MOV)
+  "upload_button.label": "",
+  // es_AR: Se excedió el límite de subida de archivos.
+  // es_ES: Límite de subida de archivos excedido.
+  // es_MX: Límite de subida de archivos excedido.
+  "upload_error.limit": "",
+  // es_AR: No se permite la subida de archivos en encuestas.
+  // es_ES: Subida de archivos no permitida con encuestas.
+  // es_MX: Subida de archivos no permitida con encuestas.
+  "upload_error.poll": "",
+  // es_AR: Agregá una descripción para personas con dificultades auditivas
+  // es_ES: Describir para personas con problemas auditivos
+  // es_MX: Describir para personas con problemas auditivos
+  "upload_form.audio_description": "",
+  // es_AR: Agregá una descripción para personas con dificultades visuales
+  // es_ES: Describir para los usuarios con dificultad visual
+  // es_MX: Describir para los usuarios con dificultad visual
+  "upload_form.description": "",
+  // es_AR: No se agregó descripción
+  // es_ES: Ninguna descripción añadida
+  // es_MX: Ninguna descripción añadida
+  "upload_form.description_missing": "",
+  // es_AR: Editar
+  // es_ES: Editar
+  // es_MX: Editar
+  "upload_form.edit": "",
+  // es_AR: Cambiar miniatura
+  // es_ES: Cambiar miniatura
+  // es_MX: Cambiar miniatura
+  "upload_form.thumbnail": "",
+  // es_AR: Eliminar
+  // es_ES: Borrar
+  // es_MX: Borrar
+  "upload_form.undo": "",
+  // es_AR: Agregá una descripción para personas con dificultades auditivas o visuales
+  // es_ES: Describir para personas con problemas auditivos o visuales
+  // es_MX: Describir para personas con problemas auditivos o visuales
+  "upload_form.video_description": "",
+  // es_AR: Analizando imagen…
+  // es_ES: Analizando imagen…
+  // es_MX: Analizando imagen…
+  "upload_modal.analyzing_picture": "",
+  // es_AR: Aplicar
+  // es_ES: Aplicar
+  // es_MX: Aplicar
+  "upload_modal.apply": "",
+  // es_AR: Aplicando…
+  // es_ES: Aplicando…
+  // es_MX: Aplicando…
+  "upload_modal.applying": "",
+  // es_AR: Elegir imagen
+  // es_ES: Elegir imagen
+  // es_MX: Elegir imagen
+  "upload_modal.choose_image": "",
+  // es_AR: El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+  // es_ES: Un rápido zorro marrón salta sobre el perro perezoso
+  // es_MX: Un rápido zorro marrón salta sobre el perro perezoso
+  "upload_modal.description_placeholder": "",
+  // es_AR: Detectar texto de la imagen
+  // es_ES: Detectar texto de la imagen
+  // es_MX: Detectar texto de la imagen
+  "upload_modal.detect_text": "",
+  // es_AR: Editar medio
+  // es_ES: Editar multimedia
+  // es_MX: Editar multimedia
+  "upload_modal.edit_media": "",
+  // es_AR: Hacé clic o arrastrá el círculo en la previsualización para elegir el punto focal que siempre estará a la vista en todas las miniaturas.
+  // es_ES: Haga clic o arrastre el círculo en la vista previa para elegir el punto focal que siempre estará a la vista en todas las miniaturas.
+  // es_MX: Haga clic o arrastre el círculo en la vista previa para elegir el punto focal que siempre estará a la vista en todas las miniaturas.
+  "upload_modal.hint": "",
+  // es_AR: Preparando OCR…
+  // es_ES: Preparando OCR…
+  // es_MX: Preparando OCR…
+  "upload_modal.preparing_ocr": "",
+  // es_AR: Previsualización ({ratio})
+  // es_ES: Vista previa ({ratio})
+  // es_MX: Vista previa ({ratio})
+  "upload_modal.preview_label": "",
+  // es_AR: Subiendo...
+  // es_ES: Subiendo…
+  // es_MX: Subiendo…
+  "upload_progress.label": "",
+  // es_AR: Procesando…
+  // es_ES: Procesando…
+  // es_MX: Procesando…
+  "upload_progress.processing": "",
+  // es_AR: Cerrar video
+  // es_ES: Cerrar video
+  // es_MX: Cerrar video
+  "video.close": "",
+  // es_AR: Descargar archivo
+  // es_ES: Descargar archivo
+  // es_MX: Descargar archivo
+  "video.download": "",
+  // es_AR: Salir de la pantalla completa
+  // es_ES: Salir de pantalla completa
+  // es_MX: Salir de pantalla completa
+  "video.exit_fullscreen": "",
+  // es_AR: Expandir video
+  // es_ES: Expandir vídeo
+  // es_MX: Expandir vídeo
+  "video.expand": "",
+  // es_AR: Pantalla completa
+  // es_ES: Pantalla completa
+  // es_MX: Pantalla completa
+  "video.fullscreen": "",
+  // es_AR: Ocultar video
+  // es_ES: Ocultar vídeo
+  // es_MX: Ocultar vídeo
+  "video.hide": "",
+  // es_AR: Silenciar
+  // es_ES: Silenciar sonido
+  // es_MX: Silenciar sonido
+  "video.mute": "",
+  // es_AR: Pausar
+  // es_ES: Pausar
+  // es_MX: Pausar
+  "video.pause": "",
+  // es_AR: Reproducir
+  // es_ES: Reproducir
+  // es_MX: Reproducir
+  "video.play": "",
+  // es_AR: Dejar de silenciar"
+  // es_ES: Dejar de silenciar sonido"
+  // es_MX: Dejar de silenciar sonido"
+  "video.unmute": ""
+}
