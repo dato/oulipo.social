@@ -1,5 +1,5 @@
 {
-  "about.blocks": "Servidores moderados",
+  "about.blocks": "Sitios restringidos",
   "about.contact": "Contacto:",
   "about.disclaimer": "Mastodon es software de código abierto, y una marca comercial de Mastodon gGmbH.",
   "about.domain_blocks.no_reason_available": "Sin motivo conocido",
@@ -8,9 +8,9 @@
   "about.domain_blocks.silenced.title": "Limitado",
   "about.domain_blocks.suspended.explanation": "Ningún dato de este servidor será procesado, almacenado o intercambiado, haciendo imposible cualquier interacción o comunicación con los usuarios de este servidor.",
   "about.domain_blocks.suspended.title": "Suspendido",
-  "about.not_available": "Esta información no está disponible en este servidor.",
+  "about.not_available": "Elementos no disponibles en este servidor.",
   "about.powered_by": "Redes sociales descentralizadas con tecnología de {mastodon}",
-  "about.rules": "Reglas del servidor",
+  "about.rules": "Leyes en este sitio",
   "account.account_note_header": "Nota",
   "account.add_or_remove_from_list": "Agregar o eliminar de listas",
   "account.badges.bot": "Bot",
